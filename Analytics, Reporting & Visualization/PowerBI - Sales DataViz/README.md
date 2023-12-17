@@ -1,6 +1,6 @@
 # Data Visualization Project using Power BI
 
-![image](./PowerBI.png)
+![image](./powerBI.png)
 
 Welcome to the GitHub repository for my Data Visualization project using Power BI! In this project, I have utilized Power BI to create compelling visualizations from raw datasets, enabling data-driven insights and informed decision-making. This repository contains the resources and documentation related to the project.
 
