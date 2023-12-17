@@ -4,7 +4,7 @@
 
 This project was developed for a hackathon competition (I got second place 😐). It's designed to provide an insightful visualization of flight data using D3.js for interactive graphics and Python for data processing. The focus was on creating an engaging experience that is both informative for engineers and accessible to non-technical users.
 
-To see the project in action, visit [this page](https://takline.github.io/Demos/Flight_DataViz).
+To see the project in action, visit [this page](https://takline.github.io/Demos/Analytics,%20Reporting%20&%20Visualization/Flight_DataViz/).
 
 ## Features
 
