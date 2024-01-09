@@ -1,4 +1,4 @@
-#Luigi ML Pipeline
+# Luigi ML Pipeline
 
 This repository showcases an easy-to-follow method for automating data transformations, modeling, and a [Luigi](https://github.com/spotify/luigi) data pipeline.
 
