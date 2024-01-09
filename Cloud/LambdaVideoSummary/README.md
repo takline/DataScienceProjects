@@ -1,8 +1,4 @@
-Based on your request, I will create a comprehensive README.md for the AWS Python Lambda function you've developed. The function's purpose is to trigger when a new file is uploaded to Dropbox or S3, and it then creates a summary of a video. Here's a structured README.md outline tailored to your code and requirements:
-
----
-
-# AWS Python Lambda Function for Video Summary
+# Lambda & Google Gemini Integration
 
 ## Overview
 This AWS Lambda function is designed to automatically trigger upon the upload of new files to Dropbox or S3. Upon activation, it processes the uploaded video file and generates a comprehensive summary. This summary includes key points, a deeper analysis, and categorization tags.
