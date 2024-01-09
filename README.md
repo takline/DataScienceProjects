@@ -1,11 +1,11 @@
-# **Tyler Kline's AI, Data Science, and Data Engineering Portfolio**
+# **Tyler Kline's AI, Data Science, and Data Engineering Projects**
 ---
 
 <br>
 
 **Intro**
 
-Welcome to my professional portfolio! My name is Tyler, and I'm a data scientist/engineer with extensive experience in delivering high-quality, scalable solutions across various domains. This repository showcases a curated selection of my projects and contributions, illustrating my experience in AI, python, cloud tech, and more.
+This repo contains some fun projects I've delivered related to data science, AI, python, etc...
 
 ---
 <br>
@@ -18,9 +18,7 @@ I've organized this repo to showcase my work along the following domains:
 
 2. **Web Scraping & Automation:** The projects here showcase practical web scraping techniques using Python libraries such as BeautifulSoup and Selenium. These include scripts for automated data extraction from websites, dealing with dynamic web pages, and handling data in various formats. The emphasis is on creating reliable and efficient scripts that can gather and process data from the web.
 
-
 3. **Data Engineering & Pipelines:** My bread and butter - data engineering. Here you will see my experience with building data pipelines (ETL, data warehousing, streaming, etc...). Tools and technologies like Apache Kafka, Spark, and SQL databases are commonly used here. The projects demonstrate effective data management from ingestion to processing and storage.
-
 
 4. **Cloud Computing:** Work involving AWS, Google Cloud, Azure, and other tech (ex: Snowflake).
 
