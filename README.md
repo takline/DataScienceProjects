@@ -12,7 +12,7 @@ This repo contains some fun projects I've delivered related to data science, AI,
 
 **Projects Overview**
 
-I've organized this repo to showcase my work along the following domains:
+This repo contains the following:
 
 1. **AI:** This section features projects using platforms like OpenAI, Claude, and Vertex AI. You'll find examples of machine learning model implementation, natural language processing tasks, and AI deployments. The focus is on practical use-cases such as predictive modeling, text analysis, and integrating AI within existing systems.
 
@@ -36,17 +36,6 @@ Dive into the code, explore the methodologies, and feel free to contribute or su
 
 ---
 
-**For Potential Clients & Non-Technical Visitors**
-
-While the technical details might be complex, the outcomes are what matter. Each project includes a clear summary of the problem solved, the approach taken, and the business impact. If you have questions or need a similar solution, don't hesitate to reach out!
-
----
-
-**Contact & Collaboration**
-
-I'm open to consulting opportunities and collaborations. Feel free to reach out to me at tylerkline@gmail.com or connect with me on LinkedIn. Let's discuss how we can drive your next project to success!
-
----
 
 **Acknowledgements**
 
