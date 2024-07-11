@@ -795,9 +795,10 @@ main {
 }
 
 
-.projects-text {
+.projects-text .projects-item-text {
   color: var(--light-gray);
-  font-weight: var(--fw-300);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
   line-height: 1.6;
 }
 
