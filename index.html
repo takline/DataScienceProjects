@@ -1,3 +1,676 @@
-<!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3TnjXfkAWARphBs88fZ3udgidk-V5s50rvcAa3_r96HNoa6de92kNd6vA5koG602v2UOPLEjOk?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tyler Kline's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.png" alt="Tyler Kline" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tyler Kline">Tyler Kline</h1>
+
+          <p class="title">Analytics | Product | Data Science</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contact Info</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tylerkline@gmail.com" class="contact-link">tylerkline@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+19525945052" class="contact-link">+1 (952) 594-5052</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New York, NY, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/tylerkline" class="social-link">
+              <ion-icon name="./assets/images/linkedin.svg"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/takline" class="social-link">
+              <ion-icon name="./assets/images/github.svg"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Dynamic Analytics and Product Management Leader with over 10 years of experience. Demonstrated success in developing cutting-edge trading models, enhancing reporting efficiency, and leading cross-functional teams, resulting in significant improvements in risk assessment, project agility, and strategic decision-making. Skilled in Python, SQL, cloud platforms (AWS, Azure, Google Cloud), and analytical tools like Tableau and Power BI. Committed to driving innovation and transformative outcomes in a dynamic, entrepreneurial environment.          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/node.svg" alt="node" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Data Solutions</h4>
+
+                <p class="service-item-text">
+                  Engineering and delivering transformative AI and data solutions that significantly impact industry standards.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/database.svg" alt="database" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Pipeline Optimization</h4>
+
+                <p class="service-item-text">
+                  Developing and optimizing data pipelines to increase processing efficiency and improve overall system performance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/app.svg" alt="app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App Development</h4>
+
+                <p class="service-item-text">
+                  Leading the development and launch of innovative iOS and web applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/strategy.svg" alt="strategy icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Strategic Consulting</h4>
+
+                <p class="service-item-text">
+                  Providing strategic consulting to drive innovations in AI and data solutions.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NYU Stern, M.B.A.</h4>
+
+              <span>Graduated</span>
+
+              <p class="timeline-text">
+                Master of Business Administration with a focus on data analytics and strategic management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Wisconsin</h4>
+
+              <span>Graduated</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Economics and Political Science.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder, June</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Founded and launched June, a technology & AI consulting firm, driving strategic innovations in AI and data solutions that significantly impact industry standards.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vice President, Quantitative Analytics (QA) Strategy, Barclays</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Transformed Securitized Product Quant Development by integrating Agile and DevOps principles, leading to a 100% increase in feature release speed and elevating on-time delivery to 95%.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Management Consultant, Accenture</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Orchestrated a comprehensive 3-year product strategy for a wealth management billing platform, enhancing performance by 50% and reducing onboarding times by 30%.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pricing & Valuations Lead, Capital One</h4>
+
+              <span>2012 — 2019</span>
+
+              <p class="timeline-text">
+                Modernized legacy Excel-based pricing tool by developing a Python-based valuation framework using AWS, H2O, and Spark, reducing processing time by 50% and improving accuracy by 25%.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="100">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="100">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Technologies (AWS, Azure, Google Cloud)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="70">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AI/ML</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Pipelines / ETL</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Snowflake</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Modeling & Architecture</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Agile</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Analytics</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Excel</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Dashboards</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Strong Analytical & Problem-Solving Capabilities</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">iOS Development</h5>
+                <data value="85">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Mentoring & Managing Teams</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #GITHUB PORTFOLIO
+      -->
+
+      <article class="github-portfolio" data-page="github-portfolio">
+
+        <header>
+          <h2 class="h2 article-title">GitHub Portfolio</h2>
+        </header>
+
+        <section class="projects-overview">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ul class="projects-list">
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/ResumeGPT">ResumeGPT</a></h4>
+              <p class="project-item-text">
+                ResumeGPT allows you to simply provide your resume and a job posting link, and it will produce a formatted ATS friendly PDF resume that is optimized and personalize your resume to align with the specific requirements and keywords of the job.
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/AI">AI</a></h4>
+              <p class="project-item-text">
+                Projects using platforms like OpenAI, Claude, and Vertex AI. Examples include machine learning model implementation, natural language processing tasks, and AI deployments.
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation">Web Scraping & Automation</a></h4>
+              <p class="project-item-text">
+                Practical web scraping techniques using Python libraries such as BeautifulSoup and Selenium. Scripts for automated data extraction from websites, dealing with dynamic web pages, and handling data in various formats.
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines">Data Engineering & Pipelines</a></h4>
+              <p class="project-item-text">
+                Experience with building data pipelines (ETL, data warehousing, streaming, etc.). Tools and technologies like Apache Kafka, Spark, and SQL databases are commonly used.
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/Cloud">Cloud Computing</a></h4>
+              <p class="project-item-text">
+                Work involving AWS, Google Cloud, Azure, and other tech (e.g., Snowflake).
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/Analytics%2C%20Reporting%20%26%20Visualization">Analytics, Reporting & Visualization</a></h4>
+              <p class="project-item-text">
+                Creating data visualizations using tools like Tableau, Python libraries (e.g., Matplotlib, Seaborn). Focus on effectively translating data into understandable formats.
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/Blender%20%26%203D%20Python%20Modeling">Blender & 3D Python Modeling</a></h4>
+              <p class="project-item-text">
+                Pet projects on 3D modelling with Blender's python module.
+              </p>
+            </li>
+
+            <li class="project-item">
+              <h4 class="h4 project-item-title"><a href="https://github.com/takline/Home/tree/main/Notion%20Automation">Notion Automation</a></h4>
+              <p class="project-item-text">
+                Notion automations.
+              </p>
+            </li>
+
+          </ul>
+
+        </section>
+      </article>
+
+
+      <article class="contact" data-page="contact">
+
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Schedule a meeting with me:</h3>
+          <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3TnjXfkAWARphBs88fZ3udgidk-V5s50rvcAa3_r96HNoa6de92kNd6vA5koG602v2UOPLEjOk?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
