@@ -228,6 +228,14 @@ article.active {
   text-transform: capitalize;
 }
 
+
+.h2-nocap,
+.h3-nocap,
+.h4-nocap,
+.h5-nocap {
+  color: var(--white-2);
+}
+
 .h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-2); }
@@ -795,7 +803,7 @@ main {
 }
 
 
- .projects-item-text {
+ .projects-item-text{
   color: lightgrey;
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
