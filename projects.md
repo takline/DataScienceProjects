@@ -1,626 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tyler Kline</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/hedshot_1.png" alt="Tyler Kline" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Tyler Kline">Tyler Kline</h1>
-
-          <p class="title">Analytics | Product | Data Science</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contact Info</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:tylerkline@gmail.com" class="contact-link">tylerkline@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+19525945052" class="contact-link">+1 (952) 594-5052</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>New York, NY, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <img src="./assets/images/linkedin.svg" alt="LinkedIn" width="24">
-            </div>
-
-            <div class="contact-info">
-
-              <a href="https://linkedin.com/in/tylerkline" class="contact-link">linkedin.com/in/tylerkline</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <img src="./assets/images/github.svg" alt="LinkedIn" width="24">
-            </div>
-
-            <div class="contact-info">
-
-              <a href="https://linkedin.com/in/tylerkline" class="contact-link">github.com/takline</a>
-            </div>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Dynamic Analytics and Product Management Leader with over 10 years of experience. Demonstrated success in developing cutting-edge trading models, enhancing reporting efficiency, and leading cross-functional teams, resulting in significant improvements in risk assessment, project agility, and strategic decision-making. Skilled in Python, SQL, cloud platforms (AWS, Azure, Google Cloud), and analytical tools like Tableau and Power BI. Committed to driving innovation and transformative outcomes in a dynamic, entrepreneurial environment.          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">About</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/node.svg" alt="node" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI & Data Solutions</h4>
-
-                <p class="service-item-text">
-                  Engineering and delivering transformative AI and data solutions that significantly impact industry standards.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/database.svg" alt="database" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Pipeline Optimization</h4>
-
-                <p class="service-item-text">
-                  Developing and optimizing data pipelines to increase processing efficiency and improve overall system performance.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/app.svg" alt="app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">App Development</h4>
-
-                <p class="service-item-text">
-                  Leading the development and launch of innovative iOS and web applications.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/strategy.svg" alt="strategy icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Strategy Consulting</h4>
-
-                <p class="service-item-text">
-                  Providing strategic consulting to drive innovations in AI and data solutions.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </article>
-      <!--
-        - #RESUME
-      -->
-      <article class="resume" data-page="resume">
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">NYU Stern, M.B.A.</h4>
-
-              <span>Graduated</span>
-
-              <p class="timeline-text">
-                Master of Business Administration with a focus on data analytics and strategic management.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of Wisconsin</h4>
-
-              <span>Graduated</span>
-
-              <p class="timeline-text">
-                Bachelor of Science in Economics and Political Science.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Founder, June</h4>
-
-              <span>2024 — Present</span>
-
-              <p class="timeline-text">
-                ▪ Founded and launched June, a technology & AI consulting firm, driving strategic innovations in AI and data solutions that significantly impact industry standards.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Vice President, Quantitative Analytics Strategy, Barclays</h4>
-
-              <span>2021 — 2023</span>
-
-              <p class="timeline-text">
-                ▪ Optimized Project Management across Multiple Asset Classes: Macro, Securitized Products, and Credit sectors, enhancing cross-functional team collaboration and achieving timely project completions.
-                              </p>
-
-            <p class="timeline-text">
-              ▪ Modernized QA Reporting Infrastructure: Overhauled reporting processes using Python, AWS, and Tableau, slashing manual input by 80%, boosting data accuracy to over 99%, and facilitating advanced risk assessments which set benchmarks for data-driven decision-making and compliance.
-            </p>
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Management Consultant, Accenture</h4>
-
-              <span>2019 — 2021</span>
-
-              <p class="timeline-text">
-                ▪ Orchestrated a comprehensive 3-year product strategy for a wealth management billing platform, enhancing performance by 50% and reducing onboarding times by 30%.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Pricing & Valuations - Business Analysis, Capital One</h4>
-
-              <span>2012 — 2019</span>
-
-              <p class="timeline-text">
-                ▪ Modernized legacy Excel-based pricing tool by conducting user research, partnering with engineering to develop Python-based valuation framework using AWS, H2O, and Spark, reducing processing time by 50% and improving accuracy by 25%.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Principal Data Scientist, Capital One</h4>
-
-              <span>2012 — 2019</span>
-              <p class="timeline-text">
-                ▪ Led the creation of a Python & ML entity resolution framework, reducing data duplication by 20%, ensuring higher data integrity and operational efficiency across internal platforms.
-              </p>
-              <p class="timeline-text">
-                ▪  Improved sell-side equity research in the energy sector by developing ML models to forecast oil and gas production, enhancing prediction accuracy by 10% through rigorous data analysis and model training.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior Data Analyst, Capital One</h4>
-
-              <span>2012 — 2019</span>
-
-              <p class="timeline-text">
-                ▪ Reduced accidental late payments by 10% per billing cycle at Capital One by leading a data analytics project to analyze customer payment behaviors and implementing strategic changes to payment reminders, enhancing cash flow and customer satisfaction.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data Analyst, Capital One</h4>
-
-              <span>2012 — 2019</span>
-
-              <p class="timeline-text">
-                ▪ Achieved an accelerated promotion within the first year at Capital One by demonstrating exceptional problem-solving skills and effective communication across teams, contributing to high-impact projects as a rising star in the Analyst Development Program.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">SQL</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Pipelines / ETL</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Cloud Technologies (AWS, Azure, Google Cloud)</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Agile</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Mentoring & Managing Teams</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Analytics</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Tableau</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Power BI</h5>
-                <data value="70">75%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">AI/ML</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Snowflake</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Modeling & Architecture</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Excel</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Dashboards</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">iOS Development</h5>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
-        - #Projects
-      -->
-
-
-      <article class="projects" data-page="projects">
-
-          <md-block>
-
 
 *Click to expand each section
 
-<details>
-  <summary><strong><a href="https://github.com/takline/ResumeGPT">github.com/takline/ResumeGPT</a>:</strong> ResumeGPT is an open-source python library that allows you to simply provide your resume and a job posting link, and it will produce a formatted ATS friendly PDF resume that is optimized and personalize your resume to align with the specific requirements and keywords of the job.</summary>
+   <details>
+     <summary><strong><a href="https://github.com/takline/ResumeGPT">github.com/takline/ResumeGPT</a>:</strong> ResumeGPT is an open-source python library that allows you to simply provide your resume and a job posting link, and it will produce a formatted ATS friendly PDF resume that is optimized and personalize your resume to align with the specific requirements and keywords of the job.</summary>
 <h1 align="center">
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="images/ResumeGPT-light.png"/>
- <source media="(prefers-color-scheme: light)" srcset="images/ResumeGPT.png"/>
- <img width="400" src="images/ResumeGPT.png"/>
-<br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/ResumeGPT-light.png"/>
+    <source media="(prefers-color-scheme: light)" srcset="images/ResumeGPT.png"/>
+    <img width="400" src="images/ResumeGPT.png"/>
+ <br />
 </h1>
 
 <div align="center">
 
 <p align="center">
-<a href="#features">
- <b>Features</b>
-</a>
-  · 
-<a href="#installation">
- <b>Install</b>
-</a>
-  · 
-<a href="#usage">
- <b>Usage</b>
-</a>
-   · 
-<a href="#discussions">
- <b>Discussions</b>
-</a>
-  · 
-<a href="#contributors">
- <b>Contributors</b>
-</a>
+  <a href="#features">
+    <b>Features</b>
+  </a>
+     · 
+  <a href="#installation">
+    <b>Install</b>
+  </a>
+     · 
+  <a href="#usage">
+    <b>Usage</b>
+  </a>
+      · 
+  <a href="#discussions">
+    <b>Discussions</b>
+  </a>
+     · 
+  <a href="#contributors">
+    <b>Contributors</b>
+  </a>
 
 </p>
 
@@ -654,9 +66,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-- Add your resume to `ResumeGPT/data/sample_resume.yaml` (make sure `ResumeGPT.config.YOUR_RESUME_NAME` is set to your resume filename in the `.data/` folder)
-- Update `ResumeGPT/config/config.ini` with your name and info that will be included in your resume
-- Provide ResumeGPT with the link to a job posting and it will tailot your resume to the job:
+ - Add your resume to `ResumeGPT/data/sample_resume.yaml` (make sure `ResumeGPT.config.YOUR_RESUME_NAME` is set to your resume filename in the `.data/` folder)
+ - Update `ResumeGPT/config/config.ini` with your name and info that will be included in your resume
+ - Provide ResumeGPT with the link to a job posting and it will tailot your resume to the job:
 
 ### Single job posting usage
 ```python
@@ -688,24 +100,24 @@ resume_improver.create_draft_tailored_resume()
 You can run multiple ResumeGPT.services.ResumeImprover's concurrently via ResumeGPT's BackgroundRunner class (as it takes a couple of minutes for ResumeImprover to complete a single run):
 ```python
 background_configs = [
- {
-     "url": "https://[link to your job posting 1]",
-     "auto_open": True,
-     "manual_review": True,
-     "resume_location": "/path/to/resume1.yaml",
- },
- {
-     "url": "https://[link to your job posting 2]",
-     "auto_open": False,
-     "manual_review": False,
-     "resume_location": "/path/to/resume2.yaml",
- },
- {
-     "url": "https://[link to your job posting 3]",
-     "auto_open": True,
-     "manual_review": True,
-     "resume_location": "/path/to/resume3.yaml",
- },
+    {
+        "url": "https://[link to your job posting 1]",
+        "auto_open": True,
+        "manual_review": True,
+        "resume_location": "/path/to/resume1.yaml",
+    },
+    {
+        "url": "https://[link to your job posting 2]",
+        "auto_open": False,
+        "manual_review": False,
+        "resume_location": "/path/to/resume2.yaml",
+    },
+    {
+        "url": "https://[link to your job posting 3]",
+        "auto_open": True,
+        "manual_review": True,
+        "resume_location": "/path/to/resume3.yaml",
+    },
 ]
 background_runner = ResumeGPT.services.ResumeImprover.create_draft_tailored_resumes_in_background(background_configs=background_configs)
 #Check the status of background tasks (saves the output to `ResumeGPT/data/background_tasks/tasks.log`)
@@ -723,16 +135,16 @@ You will follow the same workflow when using ResumeGPT's BackgroundRunner (ex: v
 Here is an example ATS friendly resume created by ResumeGPT:
 
 <p align="center">
-<img src="./assets/images/example_resume_output.png" alt="Resume Example" width="400"/>
+  <img src="./assets/images/example_resume_output.png" alt="Resume Example" width="400"/>
 </p>
-</details>
+   </details>
 <br>
 <hr>
 <br>
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/AI">AI</a>:</strong> This section features projects using platforms like OpenAI, Claude, and Vertex AI. You'll find examples of machine learning model implementation, natural language processing tasks, and AI deployments. The focus is on practical use-cases such as predictive modeling, text analysis, and integrating AI within existing systems.</summary>
-          <details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion">OpenAI Embeddings in Notion</strong></summary>
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/AI">AI</a>:</strong> This section features projects using platforms like OpenAI, Claude, and Vertex AI. You'll find examples of machine learning model implementation, natural language processing tasks, and AI deployments. The focus is on practical use-cases such as predictive modeling, text analysis, and integrating AI within existing systems.</summary>
+             <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion">OpenAI Embeddings in Notion</strong></summary>
 
 This repo will help guide you through the creation of a Notion chatbot utilizing a blend of LangChain, OpenAI, FAISS, and Streamlit!
 
@@ -774,7 +186,7 @@ This guide takes inspiration from Harrison Chase (Founder of LangChain) on inter
 
 1. Project Structure and Initiation
 
- 1.1 Framework of the Project
+    1.1 Framework of the Project
 
 ### Project Framework
 The notion-chatbot project is structured as follows:
@@ -816,7 +228,7 @@ To utilize the Notion page content as our chatbot's knowledge base, we convert i
 
 Open the project
 
-in your preferred IDE and create ingest.py:
+ in your preferred IDE and create ingest.py:
 
 # ingest.py
 
@@ -866,10 +278,10 @@ And there you have it, your interactive Notion chatbot is ready for action!
 
 
 
-</details>
-<details>
-<summary><strong><a href="https://github.com/takline/Home/tree/main/AI/Google%20Gemini%20Vision%20-%20Notion%20Automation">Google Gemini Vision - Notion Automation</a>:</strong></summary>
-  ### Video --> Notion --> Google Gemini Summary --> Notion
+   </details>
+   <details>
+   <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/Google%20Gemini%20Vision%20-%20Notion%20Automation">Google Gemini Vision - Notion Automation</a>:</strong></summary>
+     ### Video --> Notion --> Google Gemini Summary --> Notion
 
 #### **Overview**
 
@@ -894,40 +306,40 @@ This repository contains a Python application designed to create automated summa
 #### **Setup and Configuration**
 
 1. **Prerequisites:**
-- Python 3.8 or later.
-- Access to Google Cloud Platform and a configured GCP bucket.
-- A Notion account with API access.
-- Pipedream account for workflow automation.
+   - Python 3.8 or later.
+   - Access to Google Cloud Platform and a configured GCP bucket.
+   - A Notion account with API access.
+   - Pipedream account for workflow automation.
 
 2. **Environment Setup:**
-- Install required Python packages: `ffmpeg-python`, `moviepy`, `google-cloud-aiplatform`.
-- Set environment variables for Google Cloud credentials and Notion API access.
+   - Install required Python packages: `ffmpeg-python`, `moviepy`, `google-cloud-aiplatform`.
+   - Set environment variables for Google Cloud credentials and Notion API access.
 
 3. **Google Cloud Credentials:**
-- Follow Google Cloud documentation to obtain service account credentials.
-- Update the credentials in the script or set them as environment variables.
+   - Follow Google Cloud documentation to obtain service account credentials.
+   - Update the credentials in the script or set them as environment variables.
 
 4. **Notion Setup:**
-- Create a Notion database with video attachments.
-- Obtain API access and integrate it with the script.
+   - Create a Notion database with video attachments.
+   - Obtain API access and integrate it with the script.
 
 5. **Pipedream Workflow:**
-- Set up a Pipedream workflow that triggers the script when a new video note is created in Notion.
+   - Set up a Pipedream workflow that triggers the script when a new video note is created in Notion.
 
 ---
 
 #### **Usage**
 
 - **Running the Script:**
-The script can be executed as part of the Pipedream workflow. On triggering, it performs the following steps:
-1. Downloads the video from Notion.
-2. Checks and compresses the video if it's larger than the specified limit.
-3. Uploads the video to Google Cloud Storage.
-4. Sends the video to Google's Gemini model for summarization.
-5. The summary is then parsed and can be used to update the Notion note or for other purposes.
+  The script can be executed as part of the Pipedream workflow. On triggering, it performs the following steps:
+  1. Downloads the video from Notion.
+  2. Checks and compresses the video if it's larger than the specified limit.
+  3. Uploads the video to Google Cloud Storage.
+  4. Sends the video to Google's Gemini model for summarization.
+  5. The summary is then parsed and can be used to update the Notion note or for other purposes.
 
 - **Customization:**
-You can customize the script to change the compression settings, summary format, or integrate with different platforms.
+  You can customize the script to change the compression settings, summary format, or integrate with different platforms.
 
 ---
 
@@ -958,18 +370,18 @@ For any queries or collaboration requests, please reach out to tylerkline@gmail.
 ### **Note:**
 
 This README provides a high-level overview of the application, its components, and usage. It's designed to cater to both technical and non-technical audiences, ensuring clarity in understanding the project's functionality and scope.
-</details>    
+   </details>    
 
-</details>
+   </details>
 <br>
 <hr>
 <br>
 
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines">Data Engineering & Pipelines</a>:</strong> My bread and butter - data engineering. Here you will see my experience with building data pipelines (ETL, data warehousing, streaming, etc...). Tools and technologies like Apache Kafka, Spark, and SQL databases are commonly used here. The projects demonstrate effective data management from ingestion to processing and storage.</summary>
 <details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines">Data Engineering & Pipelines</a>:</strong> My bread and butter - data engineering. Here you will see my experience with building data pipelines (ETL, data warehousing, streaming, etc...). Tools and technologies like Apache Kafka, Spark, and SQL databases are commonly used here. The projects demonstrate effective data management from ingestion to processing and storage.</summary>
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines/luigi-ml-pipeline">Luigi ML Pipeline</summary>
-  # Luigi ML Pipeline
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines/luigi-ml-pipeline">Luigi ML Pipeline</summary>
+     # Luigi ML Pipeline
 
 This repository showcases an easy-to-follow method for automating data transformations, modeling, and a [Luigi](https://github.com/spotify/luigi) data pipeline.
 
@@ -990,17 +402,17 @@ The entire workflow is encapsulated in an interactive application found in the `
 ## Configuration
 
 1. Set up a dedicated virtual environment (using `conda` is suggested):
-```bash
-conda create --name data_workflow python=3.7
-```
+   ```bash
+   conda create --name data_workflow python=3.7
+   ```
 2. Activate your new virtual environment:
-```bash
-conda activate data_workflow
-```
+   ```bash
+   conda activate data_workflow
+   ```
 3. Install the necessary packages:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 
 ## Running the Scripts
@@ -1025,15 +437,15 @@ PYTHONPATH=. luigi --module workflow TaskX --local-scheduler
 Feel free to expand upon the code by adding your own custom tasks!
 
 
-</details>
-</details>
+   </details>
+   </details>
 <br>
 <hr>
 <br>
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Cloud%20Computing">Cloud Computing</a>:</strong> Work involving AWS, Google Cloud, Azure, and other tech (ex: Snowflake).</summary>
-     <details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Cloud/LambdaVideoSummary">Lambda Video Summary</summary>
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Cloud%20Computing">Cloud Computing</a>:</strong> Work involving AWS, Google Cloud, Azure, and other tech (ex: Snowflake).</summary>
+        <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Cloud/LambdaVideoSummary">Lambda Video Summary</summary>
 # Lambda & Google Gemini Integration
 
 ## Overview
@@ -1105,15 +517,15 @@ The Lambda function comprises several key components:
 
 ## Limitations
 - Video file size is limited by Google Cloud Storage's maximum file size.
-</details>
-</details>
+   </details>
+   </details>
 <br>
 <hr>
 <br>
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Analytics%2C%20Reporting%20%26%20Visualization">Analytics, Reporting & Visualization</a>:</strong> Some of my more fun work creating data visualizations for clients. Using tools like Tableau, Python libraries (e.g., Matplotlib, Seaborn), I've focused on effectively translating data into understandable formats, making it easy for decision-makers to grasp key insights.</summary>
-          <details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion">Data Visualization Project using Power BI
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Analytics%2C%20Reporting%20%26%20Visualization">Analytics, Reporting & Visualization</a>:</strong> Some of my more fun work creating data visualizations for clients. Using tools like Tableau, Python libraries (e.g., Matplotlib, Seaborn), I've focused on effectively translating data into understandable formats, making it easy for decision-makers to grasp key insights.</summary>
+             <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion">Data Visualization Project using Power BI
 </summary>
 # Data Visualization Project using Power BI
 
@@ -1144,9 +556,9 @@ After preparing the data and designing visualizations, I uploaded the Power BI r
 
 Feel free to reach out if you have any questions, suggestions, or feedback regarding this project. I hope these visualizations provide a clear understanding of the data and its implications.
 
-</details>
-     <details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Analytics%2C%20Reporting%20%26%20Visualization/Flight_DataViz">Flight Data Visualization Project
+   </details>
+        <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Analytics%2C%20Reporting%20%26%20Visualization/Flight_DataViz">Flight Data Visualization Project
 </summary>
 # Flight Data Visualization Project
 
@@ -1167,23 +579,23 @@ To see the project in action, visit [this page](https://takline.github.io/Demos/
 The project is divided into two main components:
 
 1. **Data Processing (Python)**
-- The Python script processes flight data, calculating various metrics like flight counts, travel times, and experience scores.
-- Outputs processed data into a CSV file for use in visualizations.
+   - The Python script processes flight data, calculating various metrics like flight counts, travel times, and experience scores.
+   - Outputs processed data into a CSV file for use in visualizations.
 
 2. **Visualization (HTML, JavaScript)**
-- HTML and JavaScript with D3.js render the data into interactive charts and graphs.
-- Users can explore different aspects of the data through interactive elements.
+   - HTML and JavaScript with D3.js render the data into interactive charts and graphs.
+   - Users can explore different aspects of the data through interactive elements.
 
 ## Installation and Setup
 
 1. **Python Environment Setup**
-- Ensure Python >=2.7 is installed.
-- Install required packages: `pandas`.
-- Run the Python script to generate the CSV file.
+   - Ensure Python >=2.7 is installed.
+   - Install required packages: `pandas`.
+   - Run the Python script to generate the CSV file.
 
 2. **Web Server Setup**
-- Host the HTML files on a web server.
-- Ensure the CSV file generated by the Python script is accessible to the HTML/JavaScript code.
+   - Host the HTML files on a web server.
+   - Ensure the CSV file generated by the Python script is accessible to the HTML/JavaScript code.
 
 ## Usage
 
@@ -1216,17 +628,17 @@ I'm grateful for the support of my peers and mentors during the hackathon. Their
 For more information, queries, or suggestions, please reach out to me at [tylerkline@gmail.com].
 
 
-</details>
-</details>
+   </details>
+   </details>
 <br>
 <hr>
 <br>
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation">Web Scraping & Automation/</a>:</strong></summary>
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation">Web Scraping & Automation/</a>:</strong></summary>
 
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation/web-scraping-with-AI">Web Scraping with AI/</a>:</strong></summary>
-  # Web Magic: Unraveling Data from Websites with OpenAI Wizardry
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation/web-scraping-with-AI">Web Scraping with AI/</a>:</strong></summary>
+     # Web Magic: Unraveling Data from Websites with OpenAI Wizardry
 
 ## What's Brewing Here?
 
@@ -1238,21 +650,21 @@ Pro Tip: Web pages are a tapestry of `<p>`, `<span>`, and `<h>` tags. Find the c
 
 1. Craft your digital map in `provide_schema.py`. Whether it's a Pydantic class or a simple dictionary, your wish is our command:
 
-```python
-class NewsPortalSchema(BaseModel):
-    headline: str
-    brief_summary: str
-```
+   ```python
+   class NewsPortalSchema(BaseModel):
+       headline: str
+       brief_summary: str
+   ```
 
 2. Set sail in `run.py` like this:
 
-```python
-asyncio.run(playwright_scrape_and_analyze(
-        url="https://www.bbc.com",
-        tags=["span"],
-        schema_pydantic=NewsPortalSchema
-    ))
-```
+   ```python
+   asyncio.run(playwright_scrape_and_analyze(
+           url="https://www.bbc.com",
+           tags=["span"],
+           schema_pydantic=NewsPortalSchema
+       ))
+   ```
 
 ## Setting Up Your Magic Kit
 
@@ -1301,11 +713,11 @@ python run.py
 - A little bird told me this wizardry is now part of LangChain's spellbook [in this PR](https://github.com/langchain-ai/langchain/pull/8732). Peek into [the grand library here](https://python.langchain.com/docs/use_cases/web_scraping#quickstart) for more enchantments.
 
 In this enhanced documentation, the instructions are reimagined to be more engaging and less technical, while still providing all the necessary steps to use the code effectively.
-</details>
+   </details>
 
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation/scrape_sec_13fs">Web Scraping SEC 13Fs/</a>:</strong></summary>
-  # Treasury Tales: An Adventure in SEC Data Exploration
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Web%20Scraping%20%26%20Automation/scrape_sec_13fs">Web Scraping SEC 13Fs/</a>:</strong></summary>
+     # Treasury Tales: An Adventure in SEC Data Exploration
 Welcome to the magical world of "Treasury Tales"! This enchanting repository houses our Python Web Scraper, a delightful tool for unraveling the mysteries of 13F filings (those intriguing declarations of mutual fund holdings) from the SEC's enchanted forest, known as [EDGAR](https://www.sec.gov/edgar/searchedgar/companysearch.html). Our scraper not only seeks out these filings but also artfully crafts a .tsv file from the gleaned data, like an alchemist turning lead into gold.
 
 ## Spellbook Requirements
@@ -1330,57 +742,16 @@ Welcome to the magical world of "Treasury Tales"! This enchanting repository hou
 - [SEC: Oracle's Guide to Form 13F](https://www.sec.gov/divisions/investment/13ffaq.htm), a compendium of frequently asked questions and answers, shedding light on the mysteries of Form 13F.
 
 Embark on your journey with "Treasury Tales" and uncover the hidden treasures within the SEC's vast vaults of data. Happy exploring! 🌟📜🔍
-</details>
-</details>
+   </details>
+   </details>
 <br>
 <hr>
 <br>
-<details>
-  <summary><strong><a href="https://github.com/takline/Home/tree/main/Blender%20%26%203D%20Python%20Modeling">Blender & 3D Python Modeling</a>:</strong> Showcases some of my pet projects on 3D modelling with Blender's python module.</summary>
-</details>
+   <details>
+     <summary><strong><a href="https://github.com/takline/Home/tree/main/Blender%20%26%203D%20Python%20Modeling">Blender & 3D Python Modeling</a>:</strong> Showcases some of my pet projects on 3D modelling with Blender's python module.</summary>
+   </details>
 
 ---
 <br>
 <br>
 
-
-          </md-block>
-     
-      </article>
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Schedule a meeting with me:</h3>
-          <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3TnjXfkAWARphBs88fZ3udgidk-V5s50rvcAa3_r96HNoa6de92kNd6vA5koG602v2UOPLEjOk?gv=true" style="border: 0" width="100%" height="600" frameborder="0" color-scheme="auto"></iframe>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>
