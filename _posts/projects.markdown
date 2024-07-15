@@ -1,4 +1,385 @@
 
+---
+layout: post
+title: "Projects"
+---
+
+*Click to expand each section*
+
+<details>
+  <summary><strong><a href="https://github.com/takline/ResumeGPT">github.com/takline/ResumeGPT</a>:</strong> ResumeGPT is an open-source python library that allows you to simply provide your resume and a job posting link, and it will produce a formatted ATS friendly PDF resume that is optimized and personalize your resume to align with the specific requirements and keywords of the job.</summary>
+  <h1 align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="images/ResumeGPT-light.png"/>
+      <source media="(prefers-color-scheme: light)" srcset="images/ResumeGPT.png"/>
+      <img width="400" src="images/ResumeGPT.png"/>
+    </picture>
+    <br />
+  </h1>
+
+  <div align="center">
+    <p align="center">
+      <a href="#features"><b>Features</b></a> · 
+      <a href="#installation"><b>Install</b></a> · 
+      <a href="#usage"><b>Usage</b></a> · 
+      <a href="#discussions"><b>Discussions</b></a> · 
+      <a href="#contributors"><b>Contributors</b></a>
+    </p>
+    <br>
+  </div>
+
+  <br>
+
+  <h3 align="center">Tailor your resume to match any job posting effortlessly with ResumeGPT.</h3>
+
+  <br/>
+  ResumeGPT allows you to simply provide your resume and a job posting link, and it will produce a formatted ATS friendly PDF resume that is optimized and personalize your resume to align with the specific requirements and keywords of the job. 
+
+  ## Features
+  - Extracts relevant skills, qualifications, and keywords from a job posting.
+  - Tailors your current resume to match job requirements.
+  - Generates professional ATS friendly PDF resumes.
+  - Allows for user verification and customization before finalizing the resume.
+
+  ## Installation
+  To install ResumeGPT, clone the repository and install the required dependencies:
+
+  ```bash
+  git clone https://github.com/takline/ResumeGPT.git
+  cd ResumeGPT
+  pip install -r requirements.txt
+  ```
+
+  ## Usage
+
+  - Add your resume to `ResumeGPT/data/sample_resume.yaml` (make sure `ResumeGPT.config.YOUR_RESUME_NAME` is set to your resume filename in the `.data/` folder)
+  - Update `ResumeGPT/config/config.ini` with your name and info that will be included in your resume
+  - Provide ResumeGPT with the link to a job posting and it will tailor your resume to the job:
+
+  ### Single job posting usage
+  ```python
+  url = "https://[link to your job posting]"
+  resume_improver = ResumeGPT.services.ResumeImprover(url)
+  resume_improver.create_draft_tailored_resume()
+  ```
+
+  ResumeGPT then creates a new resume YAML file in a new folder named after the job posting (`ResumeGPT/data/[Company_Name_Job_Title]/resume.yaml`) with a YAML key/value: `editing: true`. ResumeGPT will wait for you to update this key to verify the resume updates and allow them to make their own updates until users set `editing=false`. Then ResumeGPT will create a PDF version of their resume.
+
+  ### Custom resume location usage
+  Initialize `ResumeImprover` via a `.yaml` filepath:
+
+  ```python
+  resume_improver = ResumeGPT.services.ResumeImprover(url=url, resume_location="custom/path/to/resume.yaml")
+  resume_improver.create_draft_tailored_resume()
+  ```
+
+  ### Post-initialization usage
+  ```python
+  resume_improver.update_resume("./new_resume.yaml")
+  resume_improver.url = "https://[new link to your job posting]"
+  resume_improver.download_and_parse_job_post()
+  resume_improver.create_draft_tailored_resume()
+  ```
+
+  ### Background usage
+  You can run multiple ResumeGPT.services.ResumeImprover's concurrently via ResumeGPT's BackgroundRunner class (as it takes a couple of minutes for ResumeImprover to complete a single run):
+  ```python
+  background_configs = [
+      {
+          "url": "https://[link to your job posting 1]",
+          "auto_open": True,
+          "manual_review": True,
+          "resume_location": "/path/to/resume1.yaml",
+      },
+      {
+          "url": "https://[link to your job posting 2]",
+          "auto_open": False,
+          "manual_review": False,
+          "resume_location": "/path/to/resume2.yaml",
+      },
+      {
+          "url": "https://[link to your job posting 3]",
+          "auto_open": True,
+          "manual_review": True,
+          "resume_location": "/path/to/resume3.yaml",
+      },
+  ]
+  background_runner = ResumeGPT.services.ResumeImprover.create_draft_tailored_resumes_in_background(background_configs=background_configs)
+  # Check the status of background tasks (saves the output to `ResumeGPT/data/background_tasks/tasks.log`)
+  background_runner["background_runner"].check_status()
+  # Stop all running tasks
+  background_runner["background_runner"].stop_all_tasks()
+  # Extract a ResumeImprover
+  first_resume_improver = background_runner["ResumeImprovers"][0]
+  ```
+
+  You will follow the same workflow when using ResumeGPT's BackgroundRunner (ex: verify the resume updates via `editing=false` in each `ResumeGPT/data/[Company_Name_Job_Title]/resume.yaml` file). You can also find logs for the BackgroundRunner in `ResumeGPT/data/background_tasks/tasks.log`.
+
+  ### ResumeGPT PDF Output
+  Here is an example ATS friendly resume created by ResumeGPT:
+
+  <p align="center">
+    <img src="./assets/images/example_resume_output.png" alt="Resume Example" width="400"/>
+  </p>
+</details>
+<br>
+<hr>
+<br>
+<details>
+  <summary><strong><a href="https://github.com/takline/Home/tree/main/AI">AI</a>:</strong> This section features projects using platforms like OpenAI, Claude, and Vertex AI. You'll find examples of machine learning model implementation, natural language processing tasks, and AI deployments. The focus is on practical use-cases such as predictive modeling, text analysis, and integrating AI within existing systems.</summary>
+  <details>
+    <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion">OpenAI Embeddings in Notion</strong></summary>
+
+    This repo will help guide you through the creation of a Notion chatbot utilizing a blend of LangChain, OpenAI, FAISS, and Streamlit!
+
+    ## The Concept Behind a Notion Chatbot
+
+    Imagine a chatbot seamlessly integrated into Notion.
+
+    ### The Challenge
+    In my previous engagement, a client had their entire organizational database on Notion. Given the extensive documentation, swiftly locating specific information was a challenge. To counter this, I devised a Notion chatbot, leveraging cutting-edge AI tools to simplify information retrieval.
+
+    ### The Approach
+    Our strategy begins with LangChain to parse and segment Notion's content, transforming it into vector representations via OpenAI embeddings, and housing them in FAISS, a vector database. We craft a Conversational Retrieval Chain using LangChain to bridge our vector database and OpenAI GPT, aiming to respond to queries with the most pertinent information derived from our Notion database. Enhancements include customizing the system prompt and integrating memory capabilities. The final touch involves crafting a user-friendly chat interface via Streamlit, embedding it directly within Notion.
+
+    ## Project Roadmap
+
+    1. Initial Setup and Framework
+    We explore the project's framework and set up necessary dependencies. This stage also involves securing an OpenAI API key and replicating a public Notion page to form the foundation of our project.
+
+    2. Processing Documents
+    This phase focuses on transforming Notion's content into numerical vectors. Given the limitations of LLMs like GPT in processing lengthy texts, we employ LangChain to fragment the content into manageable segments. These segments are then vectorized using OpenAI’s embedding model and stored in a vector database.
+
+    3. Formulating Queries
+    User queries are vectorized using the same embedding model and compared against our pre-established vector database. The corresponding content, alongside the user query, is fed into OpenAI GPT to generate responses.
+
+    To enhance the chatbot's functionality, we maintain a record of previous interactions, allowing the chatbot to access this conversational history during interactions.
+
+    4. Building the Chatbot Interface
+    We utilize Streamlit to design an intuitive chat interface, which is then hosted online and integrated within the Notion platform.
+
+    This guide takes inspiration from Harrison Chase (Founder of LangChain) on interacting with Notion content through LangChain. Our enhancements include:
+
+    - Specific markdown characters for optimal content segmentation
+    - Memory feature for the chatbot
+    - Using Streamlit for a sophisticated chat interface, incorporating its new chat functionalities
+    - Embedding the Streamlit chat application into a Notion page
+
+    ## Tutorial Overview
+
+    1. Project Structure and Initiation
+
+        1.1 Framework of the Project
+
+    ### Project Framework
+    The notion-chatbot project is structured as follows:
+
+    - .streamlit/secrets.toml: For storing the OpenAI API key
+    - faiss_index: The FAISS index, our vector database
+    - notion_content: Directory for Notion content in markdown format
+    - .gitignore: To exclude tracking of the OpenAI API key and Notion content
+    - app.py: The Streamlit chat application script
+    - ingest.py: Script for vectorizing Notion content and indexing
+    - utils.py: Script for creating the Conversation Retrieval Chain
+    - requirements.txt: Necessary packages for Streamlit Community Cloud deployment
+
+    We'll construct these components step-by-step throughout this tutorial.
+
+    1.2 Initializing the Project
+
+    - Create a project directory named notion-chatbot
+    - Establish a new environment and install required dependencies
+    - Generate a .gitignore file to outline untracked files
+    - Retrieve your OpenAI API key from OpenAI’s portal
+    - Set up a .streamlit folder and within it, create secrets.toml for storing the OpenAI API key
+    - Utilize Blendle Employee Handbook as the knowledge base for this tutorial
+    - If you don’t have a Notion account, register for free on their site
+    - Duplicate the Blendle Employee Handbook to your Notion for project use
+
+    2. Ingesting Documents
+    2.1 Exporting Notion Content
+
+    - Navigate to the Blendle Employee Handbook main page on Notion
+    - Opt for Export in Markdown and CSV formats, including subpages
+    - Save the exported file as notion_content.zip, unzip it, and place it in the notion-chatbot folder
+
+    For simplicity, we're manually exporting Notion content for this tutorial.
+
+    2.2 Vectorizing Notion Content
+
+    To utilize the Notion page content as our chatbot's knowledge base, we convert it into vectors and store them using LangChain, OpenAI embedding model, and FAISS.
+
+    Open the project in your preferred IDE and create ingest.py:
+
+    ```python
+    # ingest.py
+
+    [Code block detailing the process of loading the OpenAI API key, loading and splitting Notion content, initializing the OpenAI embedding model, and converting text chunks into vectors stored in a FAISS index]
+    ```
+
+    3. Managing Queries
+    3.1 Query Process
+
+    - Establish a chat history to serve as the chatbot's memory, storing user queries and chatbot responses
+    - User poses a question, which is logged in the chat history
+    - Blend the question with the chat history to form a standalone query
+    - Vectorize the standalone query and search for similar vectors in the database
+    - GPT generates an answer using the most relevant content from Notion
+    - The chatbot conveys GPT's answer to the user, adding it to the chat history
+    - Repeat the process for ongoing interactions
+
+    3.2 Handling Queries
+
+    We develop a LangChain Conversational Retrieval Chain as the core of our application, creating utils.py to house the load_chain() function.
+
+    ```python
+    # utils.py
+
+    [Code segment outlining the creation of the Conversational Retrieval Chain, including the initialization of the OpenAI embedding model, the chat model, the local FAISS index, and the memory feature, along with the setup of the system prompt]
+    ```
+
+    4. Chatbot Interface Development
+    4.1 Streamlit Application
+
+    With our chatbot's "brain" ready, we proceed to build the Streamlit application:
+
+    ```python
+    # app.py
+
+    [Code snippet explaining the importation of the chain from utils.py, configuration of the Streamlit page, initialization of the LLM chain and chat history, chat message display mechanism, and the chat logic processing user queries and generating responses]
+    ```
+
+    4.2 Deploying on Streamlit Cloud
+
+    Ready to go live? Here's how to deploy on Streamlit Cloud:
+
+    - Prepare a requirements.txt file listing all dependencies
+    - Follow the deployment process, specifying Python version and OpenAI API key
+
+    4.3 Integrating Streamlit App in Notion
+
+    - After successful deployment, copy your app's URL
+    - In Notion, choose Embed in the block options and paste the app URL
+
+    And there you have it, your interactive Notion chatbot is ready for action!
+
+  </details>
+  <details>
+    <summary><strong><a href="https://github.com/takline/Home/tree/main/AI/Google%20Gemini%20Vision%20-%20Notion%20Automation">Google Gemini Vision - Notion Automation</a>:</strong></summary>
+    ### Video --> Notion --> Google Gemini Summary --> Notion
+
+    #### **Overview**
+
+    This repository contains a Python application designed to create automated summaries of videos saved to the iOS Notion app. The application integrates Notion, Google Cloud Platform (GCP), and Google's Gemini multimodal Large Language Model (LLM) to fetch videos from Notion, optionally compress them, and then generate summaries using advanced AI techniques. The summarized content is formatted in HTML for easy integration back into Notion or other platforms.
+
+    ---
+
+    #### **Components**
+
+    1. **Notion Integration:** Interacts with a Notion database to retrieve videos.
+    2. **Video Processing:** Compresses videos if they exceed a specified size limit.
+    3. **Google Cloud Storage:** Uploads the processed videos to Google Cloud for further processing.
+    4. **Google's Gemini Model:** Utilizes this cutting-edge AI model to generate summaries of the videos.
+    5. **Pipedream Workflow:** Orchestrates the entire process, triggered when a new note with a video is created in Notion.
+
+    ---
+
+    #### **Setup and Configuration**
+
+    1. **Prerequisites:**
+       - Python 3.8 or later.
+       - Access to Google Cloud Platform and a configured GCP bucket.
+       - A Notion account with API access.
+       - Pipedream account for workflow automation.
+
+    2. **Environment Setup:**
+       - Install required Python packages: `ffmpeg-python`, `moviepy`, `google-cloud-aiplatform`.
+       - Set environment variables for Google Cloud credentials and Notion API access.
+
+    3. **Google Cloud Credentials:**
+       - Follow Google Cloud documentation to obtain service account credentials.
+       - Update the credentials in the script or set them as environment variables.
+
+    4. **Notion Setup:**
+       - Create a Notion database with video attachments.
+       - Obtain API access and integrate it with the script.
+
+    5. **Pipedream Workflow:**
+       - Set up a Pipedream workflow that triggers the script when a new video note is created in Notion.
+
+    ---
+
+    #### **Usage**
+
+    - **Running the Script:**
+      The script can be executed as part of the Pipedream workflow. On triggering, it performs the following steps:
+      1. Downloads the video from Notion.
+      2. Checks and compresses the video if it's larger than the specified limit.
+      3. Uploads the video to Google Cloud Storage.
+      4. Sends the video to Google's Gemini model for summarization.
+      5. The summary is then parsed and can be used to update the Notion note or for other purposes.
+
+    - **Customization:**
+      You can customize the script to change the compression settings, summary format, or integrate with different platforms.
+
+    ---
+
+    #### **Gemini Model Overview**
+
+    Google's Gemini model is a state-of-the-art multimodal Large Language Model capable of understanding and generating content from both text and media inputs like videos. In this application, Gemini analyzes the video content and generates a comprehensive summary, demonstrating its ability to handle complex AI tasks.
+
+    ---
+
+    #### **Contributing**
+
+    Contributions to this project are welcome. Please follow the standard GitHub pull request process to submit your changes.
+
+    ---
+
+    #### **License**
+
+    This project is released under MIT License, allowing for both personal and commercial use with proper attribution.
+
+    ---
+
+    #### **Contact**
+
+    For any queries or collaboration requests, please reach out to tylerkline@gmail.com.
+
+    ---
+
+    ### **Note:**
+
+    This README provides a high-level overview of the application, its components, and usage. It's designed to cater to both technical and non-technical audiences, ensuring clarity in understanding the project's functionality and scope.
+  </details>    
+</details>
+<br>
+<hr>
+<br>
+<details>
+  <summary><strong><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines">Data Engineering & Pipelines</a>:</strong> My bread and butter - data engineering. Here you will see my experience with building data pipelines (ETL, data warehousing, streaming, etc...). Tools and technologies like Apache Kafka, Spark, and SQL databases are commonly used here. The projects demonstrate effective data management from ingestion to processing and storage.</summary>
+  <details>
+    <summary><strong><a href="https://github.com/takline/Home/tree/main/Data%20Engineering%20%26%20Pipelines/luigi-ml-pipeline">Luigi ML Pipeline</summary>
+    # Luigi ML Pipeline
+
+    This repository showcases an easy-to-follow method for automating data transformations, modeling, and a [Luigi](https://github.com/spotify/luigi) data pipeline.
+
+    #### Key Components
+
+    - Python version 3.7 or higher
+    - Streamlit for interactive applications
+    - Scikit-learn for machine learning tasks
+    - Pandas for data handling
+    - Luigi for workflow automation
+
+    ## Concept
+
+    The entire workflow is encapsulated in an interactive application found in the `pipeline.py` script. Refer to the instructions in the "How to Run the Scripts" section for details on setting up and launching the application.
+
+    ## Configuration
+
+    1. Set up a dedicated virtual environment (using `conda` is suggested):
+
 *Click to expand each section
 
    <details>
