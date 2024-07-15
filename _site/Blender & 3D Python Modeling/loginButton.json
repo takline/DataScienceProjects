@@ -1,0 +1,1218 @@
+{
+    "nm": "Comp 1",
+    "ddd": 0,
+    "h": 1080,
+    "w": 1920,
+    "meta": {
+        "g": "@lottiefiles/toolkit-js 0.33.2"
+    },
+    "layers": [
+        {
+            "ty": 2,
+            "nm": "loginTextWhite.png 1",
+            "sr": 1,
+            "st": 0,
+            "op": 464.33333333333337,
+            "ip": 0,
+            "hd": false,
+            "ddd": 0,
+            "bm": 0,
+            "hasMask": false,
+            "ao": 0,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        213,
+                        94
+                    ],
+                    "ix": 2
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        71.2952519806338,
+                        71.2952519806338
+                    ],
+                    "ix": 2
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        960,
+                        551.8193054199219
+                    ],
+                    "ix": 2
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "o": {
+                                "x": 0.167,
+                                "y": 0.167
+                            },
+                            "i": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "s": [
+                                100
+                            ],
+                            "t": 0
+                        },
+                        {
+                            "s": [
+                                0
+                            ],
+                            "t": 166
+                        }
+                    ],
+                    "ix": 2
+                }
+            },
+            "ef": [],
+            "refId": "0",
+            "ind": 1
+        },
+        {
+            "ty": 0,
+            "nm": "Group",
+            "sr": 1,
+            "st": 0,
+            "op": 464.33333333333337,
+            "ip": 0,
+            "hd": false,
+            "ddd": 0,
+            "bm": 0,
+            "hasMask": false,
+            "ao": 0,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        10000,
+                        10000
+                    ],
+                    "ix": 2
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ],
+                    "ix": 2
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "o": {
+                                "x": 0.167,
+                                "y": 0.167
+                            },
+                            "i": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "s": [
+                                0
+                            ],
+                            "t": 306
+                        },
+                        {
+                            "s": [
+                                100
+                            ],
+                            "t": 307
+                        }
+                    ],
+                    "ix": 2
+                }
+            },
+            "ef": [],
+            "w": 20000,
+            "h": 20000,
+            "refId": "1",
+            "ind": 2
+        },
+        {
+            "ty": 0,
+            "nm": "Group",
+            "sr": 1,
+            "st": 0,
+            "op": 464.33333333333337,
+            "ip": 0,
+            "hd": false,
+            "ddd": 0,
+            "bm": 0,
+            "hasMask": false,
+            "ao": 0,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        10000,
+                        10000
+                    ],
+                    "ix": 2
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ],
+                    "ix": 2
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "o": {
+                    "a": 1,
+                    "k": [
+                        {
+                            "o": {
+                                "x": 0.167,
+                                "y": 0.167
+                            },
+                            "i": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "s": [
+                                0
+                            ],
+                            "t": 166
+                        },
+                        {
+                            "o": {
+                                "x": 0.167,
+                                "y": 0.167
+                            },
+                            "i": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "s": [
+                                100
+                            ],
+                            "t": 167
+                        },
+                        {
+                            "o": {
+                                "x": 0.167,
+                                "y": 0.167
+                            },
+                            "i": {
+                                "x": 0.833,
+                                "y": 0.833
+                            },
+                            "s": [
+                                100
+                            ],
+                            "t": 302
+                        },
+                        {
+                            "s": [
+                                0
+                            ],
+                            "t": 303
+                        }
+                    ],
+                    "ix": 2
+                }
+            },
+            "ef": [],
+            "w": 20000,
+            "h": 20000,
+            "refId": "2",
+            "ind": 3
+        },
+        {
+            "ty": 4,
+            "nm": "Shape Layer",
+            "sr": 1,
+            "st": 0,
+            "op": 464.33333333333337,
+            "ip": 0,
+            "hd": false,
+            "ddd": 0,
+            "bm": 0,
+            "hasMask": false,
+            "ao": 0,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ],
+                    "ix": 2
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0
+                    ],
+                    "ix": 2
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 2
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 2
+                }
+            },
+            "ef": [],
+            "shapes": [
+                {
+                    "ty": "gr",
+                    "bm": 0,
+                    "hd": false,
+                    "nm": "",
+                    "it": [
+                        {
+                            "ty": "rc",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "d": 1,
+                            "p": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 2
+                            },
+                            "r": {
+                                "a": 0,
+                                "k": 75,
+                                "ix": 2
+                            },
+                            "s": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "o": {
+                                            "x": 0.818,
+                                            "y": 0
+                                        },
+                                        "i": {
+                                            "x": 0,
+                                            "y": 1
+                                        },
+                                        "s": [
+                                            409.71,
+                                            100
+                                        ],
+                                        "t": 120
+                                    },
+                                    {
+                                        "o": {
+                                            "x": 0.167,
+                                            "y": 0.167
+                                        },
+                                        "i": {
+                                            "x": 0.833,
+                                            "y": 0.833
+                                        },
+                                        "s": [
+                                            100,
+                                            100
+                                        ],
+                                        "t": 167
+                                    },
+                                    {
+                                        "o": {
+                                            "x": 1,
+                                            "y": 0
+                                        },
+                                        "i": {
+                                            "x": 0.061,
+                                            "y": 1
+                                        },
+                                        "s": [
+                                            100,
+                                            100
+                                        ],
+                                        "t": 303
+                                    },
+                                    {
+                                        "s": [
+                                            409.71,
+                                            100
+                                        ],
+                                        "t": 353
+                                    }
+                                ],
+                                "ix": 2
+                            }
+                        },
+                        {
+                            "ty": "fl",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "c": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0.0353,
+                                    1
+                                ],
+                                "ix": 2
+                            },
+                            "r": 1,
+                            "o": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "o": {
+                                            "x": 0.167,
+                                            "y": 0.167
+                                        },
+                                        "i": {
+                                            "x": 0.833,
+                                            "y": 0.833
+                                        },
+                                        "s": [
+                                            100
+                                        ],
+                                        "t": 0
+                                    },
+                                    {
+                                        "o": {
+                                            "x": 0.167,
+                                            "y": 0.167
+                                        },
+                                        "i": {
+                                            "x": 0.833,
+                                            "y": 0.833
+                                        },
+                                        "s": [
+                                            0
+                                        ],
+                                        "t": 120
+                                    },
+                                    {
+                                        "o": {
+                                            "x": 0.333,
+                                            "y": 0
+                                        },
+                                        "i": {
+                                            "x": 0.667,
+                                            "y": 1
+                                        },
+                                        "s": [
+                                            0
+                                        ],
+                                        "t": 303
+                                    },
+                                    {
+                                        "s": [
+                                            100
+                                        ],
+                                        "t": 340
+                                    }
+                                ],
+                                "ix": 2
+                            }
+                        },
+                        {
+                            "ty": "st",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "lc": 1,
+                            "lj": 1,
+                            "ml": 4,
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 2
+                            },
+                            "w": {
+                                "a": 0,
+                                "k": 6,
+                                "ix": 2
+                            },
+                            "c": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "o": {
+                                            "x": 0.333,
+                                            "y": 0
+                                        },
+                                        "i": {
+                                            "x": 0.667,
+                                            "y": 1
+                                        },
+                                        "s": [
+                                            0,
+                                            0.0353,
+                                            1
+                                        ],
+                                        "t": 163
+                                    },
+                                    {
+                                        "o": {
+                                            "x": 0.333,
+                                            "y": 0
+                                        },
+                                        "i": {
+                                            "x": 0.667,
+                                            "y": 1
+                                        },
+                                        "s": [
+                                            0.9255,
+                                            0.9059,
+                                            0.8706
+                                        ],
+                                        "t": 177
+                                    },
+                                    {
+                                        "o": {
+                                            "x": 0.333,
+                                            "y": 0
+                                        },
+                                        "i": {
+                                            "x": 0.667,
+                                            "y": 1
+                                        },
+                                        "s": [
+                                            0.9255,
+                                            0.9059,
+                                            0.8706
+                                        ],
+                                        "t": 300
+                                    },
+                                    {
+                                        "s": [
+                                            0,
+                                            0.0353,
+                                            1
+                                        ],
+                                        "t": 310
+                                    }
+                                ],
+                                "ix": 2
+                            }
+                        },
+                        {
+                            "ty": "st",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "lc": 1,
+                            "lj": 1,
+                            "ml": 4,
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 2
+                            },
+                            "w": {
+                                "a": 0,
+                                "k": 2,
+                                "ix": 2
+                            },
+                            "c": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0.0353,
+                                    1
+                                ],
+                                "ix": 2
+                            }
+                        },
+                        {
+                            "ty": "tm",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "e": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 2
+                            },
+                            "o": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 2
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 2
+                            },
+                            "m": 1
+                        },
+                        {
+                            "ty": "tr",
+                            "a": {
+                                "a": 0,
+                                "k": [
+                                    0,
+                                    0
+                                ],
+                                "ix": 2
+                            },
+                            "s": {
+                                "a": 0,
+                                "k": [
+                                    210.99998950958252,
+                                    210.99998950958252
+                                ],
+                                "ix": 2
+                            },
+                            "sk": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 2
+                            },
+                            "p": {
+                                "a": 0,
+                                "k": [
+                                    960,
+                                    540
+                                ],
+                                "ix": 2
+                            },
+                            "r": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 2
+                            },
+                            "sa": {
+                                "a": 0,
+                                "k": 0,
+                                "ix": 2
+                            },
+                            "o": {
+                                "a": 0,
+                                "k": 100,
+                                "ix": 2
+                            }
+                        }
+                    ]
+                }
+            ],
+            "ind": 4
+        }
+    ],
+    "v": "5.7.5",
+    "fr": 100,
+    "op": 463.33333333333337,
+    "ip": 0,
+    "assets": [
+        {
+            "id": "0",
+            "u": "",
+            "e": 1,
+            "w": 426,
+            "h": 188,
+            "p": "data:image/png;base64,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"
+        },
+        {
+            "nm": "",
+            "id": "1",
+            "layers": [
+                {
+                    "ty": 4,
+                    "nm": "Shape Layer",
+                    "sr": 1,
+                    "st": 0,
+                    "op": 464.33333333333337,
+                    "ip": 0,
+                    "hd": false,
+                    "ddd": 0,
+                    "bm": 0,
+                    "hasMask": false,
+                    "ao": 0,
+                    "ks": {
+                        "a": {
+                            "a": 0,
+                            "k": [
+                                0,
+                                0
+                            ],
+                            "ix": 2
+                        },
+                        "s": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ],
+                            "ix": 2
+                        },
+                        "sk": {
+                            "a": 0,
+                            "k": 0,
+                            "ix": 2
+                        },
+                        "p": {
+                            "a": 0,
+                            "k": [
+                                10000,
+                                10000
+                            ],
+                            "ix": 2
+                        },
+                        "r": {
+                            "a": 0,
+                            "k": 0,
+                            "ix": 2
+                        },
+                        "sa": {
+                            "a": 0,
+                            "k": 0,
+                            "ix": 2
+                        },
+                        "o": {
+                            "a": 0,
+                            "k": 100,
+                            "ix": 2
+                        }
+                    },
+                    "ef": [],
+                    "shapes": [
+                        {
+                            "ty": "gr",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "it": [
+                                {
+                                    "ty": "sh",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "d": 1,
+                                    "ks": {
+                                        "a": 0,
+                                        "k": {
+                                            "c": false,
+                                            "i": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "o": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ],
+                                            "v": [
+                                                [
+                                                    -93.89,
+                                                    -12.36
+                                                ],
+                                                [
+                                                    -53.99,
+                                                    35.01
+                                                ],
+                                                [
+                                                    60.55,
+                                                    -35.56
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "ty": "st",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "lc": 2,
+                                    "lj": 2,
+                                    "ml": 4,
+                                    "o": {
+                                        "a": 0,
+                                        "k": 100,
+                                        "ix": 2
+                                    },
+                                    "w": {
+                                        "a": 0,
+                                        "k": 15,
+                                        "ix": 2
+                                    },
+                                    "c": {
+                                        "a": 0,
+                                        "k": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "ix": 2
+                                    }
+                                },
+                                {
+                                    "ty": "tm",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "e": {
+                                        "a": 1,
+                                        "k": [
+                                            {
+                                                "o": {
+                                                    "x": 1,
+                                                    "y": 0
+                                                },
+                                                "i": {
+                                                    "x": 0.185,
+                                                    "y": 1
+                                                },
+                                                "s": [
+                                                    0
+                                                ],
+                                                "t": 307
+                                            },
+                                            {
+                                                "s": [
+                                                    100
+                                                ],
+                                                "t": 350
+                                            }
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "o": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "s": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "m": 1
+                                },
+                                {
+                                    "ty": "tr",
+                                    "a": {
+                                        "a": 0,
+                                        "k": [
+                                            -16.67,
+                                            -0.2750000000000057
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "s": {
+                                        "a": 0,
+                                        "k": [
+                                            110.00000238418579,
+                                            110.00000238418579
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "sk": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "p": {
+                                        "a": 0,
+                                        "k": [
+                                            976.3701171875,
+                                            540.615234375
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "r": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "sa": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "o": {
+                                        "a": 0,
+                                        "k": 100,
+                                        "ix": 2
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "ind": 1
+                }
+            ]
+        },
+        {
+            "nm": "",
+            "id": "2",
+            "layers": [
+                {
+                    "ty": 4,
+                    "nm": "Shape Layer",
+                    "sr": 1,
+                    "st": 0,
+                    "op": 464.33333333333337,
+                    "ip": 0,
+                    "hd": false,
+                    "ddd": 0,
+                    "bm": 0,
+                    "hasMask": false,
+                    "ao": 0,
+                    "ks": {
+                        "a": {
+                            "a": 0,
+                            "k": [
+                                0,
+                                0
+                            ],
+                            "ix": 2
+                        },
+                        "s": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ],
+                            "ix": 2
+                        },
+                        "sk": {
+                            "a": 0,
+                            "k": 0,
+                            "ix": 2
+                        },
+                        "p": {
+                            "a": 0,
+                            "k": [
+                                10000,
+                                10000
+                            ],
+                            "ix": 2
+                        },
+                        "r": {
+                            "a": 0,
+                            "k": 0,
+                            "ix": 2
+                        },
+                        "sa": {
+                            "a": 0,
+                            "k": 0,
+                            "ix": 2
+                        },
+                        "o": {
+                            "a": 0,
+                            "k": 100,
+                            "ix": 2
+                        }
+                    },
+                    "ef": [],
+                    "shapes": [
+                        {
+                            "ty": "gr",
+                            "bm": 0,
+                            "hd": false,
+                            "nm": "",
+                            "it": [
+                                {
+                                    "ty": "rc",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "d": 1,
+                                    "p": {
+                                        "a": 0,
+                                        "k": [
+                                            0,
+                                            0
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "r": {
+                                        "a": 0,
+                                        "k": 75,
+                                        "ix": 2
+                                    },
+                                    "s": {
+                                        "a": 0,
+                                        "k": [
+                                            100,
+                                            100
+                                        ],
+                                        "ix": 2
+                                    }
+                                },
+                                {
+                                    "ty": "fl",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "c": {
+                                        "a": 0,
+                                        "k": [
+                                            0,
+                                            0.0353,
+                                            1
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "r": 1,
+                                    "o": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    }
+                                },
+                                {
+                                    "ty": "st",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "lc": 1,
+                                    "lj": 1,
+                                    "ml": 4,
+                                    "o": {
+                                        "a": 0,
+                                        "k": 100,
+                                        "ix": 2
+                                    },
+                                    "w": {
+                                        "a": 0,
+                                        "k": 6,
+                                        "ix": 2
+                                    },
+                                    "c": {
+                                        "a": 0,
+                                        "k": [
+                                            0,
+                                            0.0353,
+                                            1
+                                        ],
+                                        "ix": 2
+                                    }
+                                },
+                                {
+                                    "ty": "tm",
+                                    "bm": 0,
+                                    "hd": false,
+                                    "nm": "",
+                                    "e": {
+                                        "a": 1,
+                                        "k": [
+                                            {
+                                                "o": {
+                                                    "x": 0.914,
+                                                    "y": 0
+                                                },
+                                                "i": {
+                                                    "x": 0.136,
+                                                    "y": 1
+                                                },
+                                                "s": [
+                                                    0
+                                                ],
+                                                "t": 167
+                                            },
+                                            {
+                                                "s": [
+                                                    100
+                                                ],
+                                                "t": 300
+                                            }
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "o": {
+                                        "a": 0,
+                                        "k": -90,
+                                        "ix": 2
+                                    },
+                                    "s": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "m": 1
+                                },
+                                {
+                                    "ty": "tr",
+                                    "a": {
+                                        "a": 0,
+                                        "k": [
+                                            0,
+                                            0
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "s": {
+                                        "a": 0,
+                                        "k": [
+                                            211,
+                                            211
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "sk": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "p": {
+                                        "a": 0,
+                                        "k": [
+                                            960,
+                                            540
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "r": {
+                                        "a": 1,
+                                        "k": [
+                                            {
+                                                "o": {
+                                                    "x": 0.76,
+                                                    "y": 0
+                                                },
+                                                "i": {
+                                                    "x": 0.24,
+                                                    "y": 1
+                                                },
+                                                "s": [
+                                                    0
+                                                ],
+                                                "t": 167
+                                            },
+                                            {
+                                                "s": [
+                                                    467
+                                                ],
+                                                "t": 300
+                                            }
+                                        ],
+                                        "ix": 2
+                                    },
+                                    "sa": {
+                                        "a": 0,
+                                        "k": 0,
+                                        "ix": 2
+                                    },
+                                    "o": {
+                                        "a": 0,
+                                        "k": 100,
+                                        "ix": 2
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "ind": 1
+                }
+            ]
+        }
+    ]
+}

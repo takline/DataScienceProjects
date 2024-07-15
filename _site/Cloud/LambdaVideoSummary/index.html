@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lambda &amp; Google Gemini Integration | Tyler Kline</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Lambda &amp; Google Gemini Integration" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My fun projects/open source repos" />
+<meta property="og:description" content="My fun projects/open source repos" />
+<link rel="canonical" href="http://localhost:4000/Cloud/LambdaVideoSummary/" />
+<meta property="og:url" content="http://localhost:4000/Cloud/LambdaVideoSummary/" />
+<meta property="og:site_name" content="Tyler Kline" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Lambda &amp; Google Gemini Integration" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"My fun projects/open source repos","headline":"Lambda &amp; Google Gemini Integration","url":"http://localhost:4000/Cloud/LambdaVideoSummary/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Tyler Kline" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Tyler Kline</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/AI/06-qa-bot/">Q&amp;amp;A Bot</a><a class="page-link" href="/AI/07-sentiment-analysis-project/">Sentiment Analysis Project</a><a class="page-link" href="/AI/Google%20Gemini%20Vision%20-%20Notion%20Automation/">Video –&amp;gt; Notion –&amp;gt; Google Gemini Summary –&amp;gt; Notion</a><a class="page-link" href="/AI/OpenAI%20-%20Embeddings%20with%20Notion/">OpenAI Embeddings in Notion</a><a class="page-link" href="/AI/Various%20automations/">LangChain Bots</a><a class="page-link" href="/Analytics,%20Reporting%20&%20Visualization/PowerBI%20-%20Sales%20DataViz/">Data Visualization Project using Power BI</a><a class="page-link" href="/Analytics,%20Reporting%20&%20Visualization/Voter_prediction_model/">My volunteer work for a local NYC political campaign</a><a class="page-link" href="/Cloud/LambdaVideoSummary/">Lambda &amp;amp; Google Gemini Integration</a><a class="page-link" href="/Data%20Engineering%20&%20Pipelines/luigi-ml-pipeline/">Luigi ML Pipeline</a><a class="page-link" href="/Notion%20Automation/">Introduction to Python Scripts for Enhanced Productivity and Automation</a><a class="page-link" href="/Web%20Scraping%20&%20Automation/scrape_sec_13fs/">Treasury Tales: An Adventure in SEC Data Exploration</a><a class="page-link" href="/Web%20Scraping%20&%20Automation/web-scraping-with-AI/">Web Magic: Unraveling Data from Websites with OpenAI Wizardry</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Lambda &amp;amp; Google Gemini Integration</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="lambda--google-gemini-integration">Lambda &amp; Google Gemini Integration</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This AWS Lambda function is designed to automatically trigger upon the upload of new files to Dropbox or S3. Upon activation, it processes the uploaded video file and generates a comprehensive summary. This summary includes key points, a deeper analysis, and categorization tags.</p>
+
+<p>This was a fun excuse to try out Google’s new multimodal AI model - Gemini. This integration allows the function to not just process video uploads, but to deeply understand and interpret the content.</p>
+
+<h2 id="workflow-summary">Workflow Summary</h2>
+
+<p>The AWS Lambda function orchestrates a sophisticated workflow to automate the process of video summarization. Here’s a step-by-step overview:</p>
+
+<ol>
+  <li>
+    <p><strong>Trigger Event</strong>: The workflow begins when a new video file is uploaded to either Dropbox or an Amazon S3 bucket. This event automatically triggers the AWS Lambda function.</p>
+  </li>
+  <li>
+    <p><strong>File Processing and Validation</strong>: Upon activation, the function first validates the video file format and size. It ensures compatibility and prepares the file for further processing.</p>
+  </li>
+  <li>
+    <p><strong>Video Compression</strong>: To optimize for processing speed and efficiency, the video file is compressed. This step adjusts the video to a suitable size and format without significant loss of quality, ensuring it meets the requirements of Google Cloud Storage.</p>
+  </li>
+  <li>
+    <p><strong>Upload to Google Cloud Storage</strong>: The compressed video file is then securely uploaded to Google Cloud Storage. This step is crucial as it provides a stable and accessible location for the video, ready for analysis by the AI model.</p>
+  </li>
+  <li>
+    <p><strong>AI Analysis with Gemini Multimodal Model</strong>: With the video in place, Google’s Gemini multimodal AI model takes over. This advanced AI system analyzes the video, interpreting both visual and auditory elements. It leverages deep learning to understand context, themes, and key messages within the video.</p>
+  </li>
+  <li>
+    <p><strong>Generating the Summary</strong>: The AI model processes the content and generates a comprehensive summary. This summary includes the most critical points, insights, and a coherent narrative that encapsulates the essence of the video.</p>
+  </li>
+  <li>
+    <p><strong>Storing Summary in Notion</strong>: Once the summary is created, it is automatically formatted and stored in a Notion database. This integration provides an organized and easily accessible way to retrieve and review the summaries.</p>
+  </li>
+  <li>
+    <p><strong>Notification and Logging</strong>: After the summary is successfully stored, the function sends a notification to the user (or a designated recipient) to inform them of the completion of the process. Simultaneously, detailed logs of the operation are maintained for monitoring and troubleshooting purposes.</p>
+  </li>
+  <li>
+    <p><strong>Cleanup and Maintenance</strong>: The function also includes a cleanup routine to remove temporary files or data used during the process, ensuring efficient use of storage and resources.</p>
+  </li>
+  <li>
+    <p><strong>Security and Compliance</strong>: Throughout the workflow, security and compliance are prioritized. Sensitive information like API keys and credentials are securely managed using AWS Secrets Manager, ensuring that the entire process is not only efficient but also secure.</p>
+  </li>
+</ol>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>AWS account with Lambda and S3 access</li>
+  <li>Dropbox account (if using Dropbox triggers)</li>
+  <li>Google Cloud Storage account (for video processing and storage)</li>
+  <li>Notion account (for storing and managing summaries)</li>
+</ul>
+
+<h2 id="configuration">Configuration</h2>
+<p>Before deployment, ensure all necessary libraries and dependencies are installed, and configure the following:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">config.py</code>: Contains all the configuration settings for AWS, Dropbox, Google Cloud Storage, and Notion.</li>
+  <li><code class="language-plaintext highlighter-rouge">google_auth.json</code>: A JSON file with your Google Cloud service account credentials.</li>
+  <li><code class="language-plaintext highlighter-rouge">SECRETS</code>: A dictionary obtained from AWS Secrets Manager, storing sensitive information like API keys and tokens.</li>
+</ul>
+
+<h2 id="deployment">Deployment</h2>
+<ol>
+  <li>Clone the repository from <code class="language-plaintext highlighter-rouge">git@github.com:takline/automation.git</code>.</li>
+  <li>Set up your AWS Lambda environment with the necessary permissions and environment variables.</li>
+  <li>Upload the code to your AWS Lambda function.</li>
+</ol>
+
+<h2 id="functionality">Functionality</h2>
+<p>The Lambda function comprises several key components:</p>
+<ul>
+  <li>Dropbox and S3 triggers: Initiate the function upon file upload.</li>
+  <li>Video processing: Compresses and uploads the video to Google Cloud Storage.</li>
+  <li>Video summary generation: Utilizes Vertex AI to generate a video summary.</li>
+  <li>Notion integration: Creates a new page in Notion with the video summary.</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+<ol>
+  <li>Upload a video file to your configured Dropbox folder or S3 bucket.</li>
+  <li>The Lambda function triggers automatically, processes the video, and generates a summary.</li>
+  <li>Check the corresponding Notion database for the new summary page.</li>
+</ol>
+
+<h2 id="logging">Logging</h2>
+<ul>
+  <li>Logging is handled by <code class="language-plaintext highlighter-rouge">lambda_logs.py</code>, which records function activity and errors.</li>
+  <li>Logs are stored in S3 and can be monitored for troubleshooting and analysis.</li>
+</ul>
+
+<h2 id="security">Security</h2>
+<ul>
+  <li>Use AWS Secrets Manager to securely store and access sensitive information.</li>
+  <li>Ensure your AWS Lambda function has the minimum required permissions.</li>
+</ul>
+
+<h2 id="limitations">Limitations</h2>
+<ul>
+  <li>Video file size is limited by Google Cloud Storage’s maximum file size.</li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Tyler Kline</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Tyler Kline</li><li><a class="u-email" href="mailto:tylerkline@gmail.com">tylerkline@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>My fun projects/open source repos</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

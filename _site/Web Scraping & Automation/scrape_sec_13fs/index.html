@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Treasury Tales: An Adventure in SEC Data Exploration | Tyler Kline</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Treasury Tales: An Adventure in SEC Data Exploration" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My fun projects/open source repos" />
+<meta property="og:description" content="My fun projects/open source repos" />
+<link rel="canonical" href="http://localhost:4000/Web%20Scraping%20&%20Automation/scrape_sec_13fs/" />
+<meta property="og:url" content="http://localhost:4000/Web%20Scraping%20&%20Automation/scrape_sec_13fs/" />
+<meta property="og:site_name" content="Tyler Kline" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Treasury Tales: An Adventure in SEC Data Exploration" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"My fun projects/open source repos","headline":"Treasury Tales: An Adventure in SEC Data Exploration","url":"http://localhost:4000/Web%20Scraping%20&%20Automation/scrape_sec_13fs/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Tyler Kline" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Tyler Kline</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/AI/06-qa-bot/">Q&amp;amp;A Bot</a><a class="page-link" href="/AI/07-sentiment-analysis-project/">Sentiment Analysis Project</a><a class="page-link" href="/AI/Google%20Gemini%20Vision%20-%20Notion%20Automation/">Video –&amp;gt; Notion –&amp;gt; Google Gemini Summary –&amp;gt; Notion</a><a class="page-link" href="/AI/OpenAI%20-%20Embeddings%20with%20Notion/">OpenAI Embeddings in Notion</a><a class="page-link" href="/AI/Various%20automations/">LangChain Bots</a><a class="page-link" href="/Analytics,%20Reporting%20&%20Visualization/PowerBI%20-%20Sales%20DataViz/">Data Visualization Project using Power BI</a><a class="page-link" href="/Analytics,%20Reporting%20&%20Visualization/Voter_prediction_model/">My volunteer work for a local NYC political campaign</a><a class="page-link" href="/Cloud/LambdaVideoSummary/">Lambda &amp;amp; Google Gemini Integration</a><a class="page-link" href="/Data%20Engineering%20&%20Pipelines/luigi-ml-pipeline/">Luigi ML Pipeline</a><a class="page-link" href="/Notion%20Automation/">Introduction to Python Scripts for Enhanced Productivity and Automation</a><a class="page-link" href="/Web%20Scraping%20&%20Automation/scrape_sec_13fs/">Treasury Tales: An Adventure in SEC Data Exploration</a><a class="page-link" href="/Web%20Scraping%20&%20Automation/web-scraping-with-AI/">Web Magic: Unraveling Data from Websites with OpenAI Wizardry</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Treasury Tales: An Adventure in SEC Data Exploration</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="treasury-tales-an-adventure-in-sec-data-exploration">Treasury Tales: An Adventure in SEC Data Exploration</h1>
+<p>Welcome to the magical world of “Treasury Tales”! This enchanting repository houses our Python Web Scraper, a delightful tool for unraveling the mysteries of 13F filings (those intriguing declarations of mutual fund holdings) from the SEC’s enchanted forest, known as <a href="https://www.sec.gov/edgar/searchedgar/companysearch.html">EDGAR</a>. Our scraper not only seeks out these filings but also artfully crafts a .tsv file from the gleaned data, like an alchemist turning lead into gold.</p>
+
+<h2 id="spellbook-requirements">Spellbook Requirements</h2>
+
+<h4 id="embarking-on-your-journey">Embarking on Your Journey</h4>
+<ul>
+  <li>Cast the spell <code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code> (or, if you’re a wizard of the <code class="language-plaintext highlighter-rouge">pipenv</code> school, use <code class="language-plaintext highlighter-rouge">pipenv install</code>) to gather all the magical ingredients.</li>
+  <li>Summon the scraper by invoking <code class="language-plaintext highlighter-rouge">python scraper.py</code> (or, in the lands of <code class="language-plaintext highlighter-rouge">pipenv</code>, chant <code class="language-plaintext highlighter-rouge">pipenv run python scraper.py</code>).</li>
+  <li>When the oracle speaks, respond with the 10-digit CIK number of the mutual fund you seek to unravel.</li>
+</ul>
+
+<h4 id="potent-potions-and-charms">Potent Potions and Charms</h4>
+
+<ul>
+  <li><a href="https://2.python-requests.org/en/master/">Requests</a>, a mystical Python scroll for conjuring HTTP requests.</li>
+  <li><a href="https://lxml.de/">lxml</a>, a powerful Python tome for parsing the cryptic languages of XML and HTML.</li>
+  <li><a href="https://pypi.org/project/beautifulsoup4/">Beautiful Soup</a>, a sorcerer’s Python guide for extracting secrets from the depths of Web pages.</li>
+  <li><a href="https://docs.python.org/3/library/re.html">re</a>, a Python spell for weaving and interpreting the complex tapestry of regular expressions.</li>
+  <li><a href="https://docs.python.org/3/library/csv.html">csv</a>, a Python scroll for decoding and inscribing CSV and TSV scripts.</li>
+</ul>
+
+<h2 id="keeper-of-the-codex">Keeper of the Codex</h2>
+<ul>
+  <li><a href="https://github.com/takline">Tyler Kline</a></li>
+</ul>
+
+<h2 id="scrolls-of-wisdom">Scrolls of Wisdom</h2>
+<ul>
+  <li><a href="https://www.sec.gov/divisions/investment/13ffaq.htm">SEC: Oracle’s Guide to Form 13F</a>, a compendium of frequently asked questions and answers, shedding light on the mysteries of Form 13F.</li>
+</ul>
+
+<p>Embark on your journey with “Treasury Tales” and uncover the hidden treasures within the SEC’s vast vaults of data. Happy exploring! 🌟📜🔍</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Tyler Kline</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Tyler Kline</li><li><a class="u-email" href="mailto:tylerkline@gmail.com">tylerkline@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>My fun projects/open source repos</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

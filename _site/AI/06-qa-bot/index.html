@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Q&amp;A Bot | Tyler Kline</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Q&amp;A Bot" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My fun projects/open source repos" />
+<meta property="og:description" content="My fun projects/open source repos" />
+<link rel="canonical" href="http://localhost:4000/AI/06-qa-bot/" />
+<meta property="og:url" content="http://localhost:4000/AI/06-qa-bot/" />
+<meta property="og:site_name" content="Tyler Kline" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Q&amp;A Bot" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"My fun projects/open source repos","headline":"Q&amp;A Bot","url":"http://localhost:4000/AI/06-qa-bot/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Tyler Kline" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Tyler Kline</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/AI/06-qa-bot/">Q&amp;amp;A Bot</a><a class="page-link" href="/AI/07-sentiment-analysis-project/">Sentiment Analysis Project</a><a class="page-link" href="/AI/Google%20Gemini%20Vision%20-%20Notion%20Automation/">Video –&amp;gt; Notion –&amp;gt; Google Gemini Summary –&amp;gt; Notion</a><a class="page-link" href="/AI/OpenAI%20-%20Embeddings%20with%20Notion/">OpenAI Embeddings in Notion</a><a class="page-link" href="/AI/Various%20automations/">LangChain Bots</a><a class="page-link" href="/Analytics,%20Reporting%20&%20Visualization/PowerBI%20-%20Sales%20DataViz/">Data Visualization Project using Power BI</a><a class="page-link" href="/Analytics,%20Reporting%20&%20Visualization/Voter_prediction_model/">My volunteer work for a local NYC political campaign</a><a class="page-link" href="/Cloud/LambdaVideoSummary/">Lambda &amp;amp; Google Gemini Integration</a><a class="page-link" href="/Data%20Engineering%20&%20Pipelines/luigi-ml-pipeline/">Luigi ML Pipeline</a><a class="page-link" href="/Notion%20Automation/">Introduction to Python Scripts for Enhanced Productivity and Automation</a><a class="page-link" href="/Web%20Scraping%20&%20Automation/scrape_sec_13fs/">Treasury Tales: An Adventure in SEC Data Exploration</a><a class="page-link" href="/Web%20Scraping%20&%20Automation/web-scraping-with-AI/">Web Magic: Unraveling Data from Websites with OpenAI Wizardry</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Q&amp;amp;A Bot</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="qa-bot">Q&amp;A Bot</h1>
+
+<p>A dynamic Q&amp;A Bot using GPT-4.</p>
+
+<p align="center">
+    <img src="screenshot.png" />
+</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>You need to create a virtual env and install the packages listed in <code class="language-plaintext highlighter-rouge">requirements.txt</code>. You can then run Jupyter Notebooks in VS Code.</p>
+
+<p>Follow these steps: <a href="https://python.plainenglish.io/how-to-work-with-python-virtual-environments-jupyter-notebooks-and-vs-code-536fac3d93a1">How to Work with Python Virtual Environments, Jupyter Notebooks and VS Code</a>.</p>
+
+<p>You need to create a <code class="language-plaintext highlighter-rouge">.env</code> file with your <code class="language-plaintext highlighter-rouge">OPENAI_API_KEY</code>.</p>
+
+<h1 id="usage">Usage</h1>
+
+<p>Open <code class="language-plaintext highlighter-rouge">F1_QA_Assistant.ipynb</code>.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>scraping data from Wikipedia.</li>
+  <li>generating a bunch of embeddings on the last Formula One season.</li>
+  <li>turning the questions from users into embeddings.</li>
+  <li>finding the K nearest neighbors to that embedding.</li>
+  <li>including the matching texts in the prompt to expand GPT-4 knowledge.</li>
+</ul>
+
+<p>Based on <a href="https://www.udemy.com/course/mastering-openai/">Mastering OpenAI Python APIs: Unleash the Power of GPT4</a> by Colt Steele (2023).</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Tyler Kline</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Tyler Kline</li><li><a class="u-email" href="mailto:tylerkline@gmail.com">tylerkline@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>My fun projects/open source repos</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
