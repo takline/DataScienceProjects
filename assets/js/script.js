@@ -39,14 +39,21 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  fetch('projects.md')
-    .then(response => response.text())
-    .then(text => {
-      const renderer = new marked.Renderer();
-      const markdownContainer = document.getElementById('markdown-content');
-      markdownContainer.innerHTML = marked(text, { renderer: renderer });
-    });
+  // Ensure marked.js is loaded before using it
+  if (typeof marked !== 'undefined') {
+    fetch('projects.md')
+      .then(response => response.text())
+      .then(text => {
+        const renderer = new marked.Renderer();
+        const markdownContainer = document.getElementById('markdown-content');
+        markdownContainer.innerHTML = marked(text, { renderer: renderer });
+      });
+  } else {
+    console.error("marked.js library is not loaded.");
+  }
 });
+
+
 
 
 
