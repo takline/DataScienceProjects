@@ -37,3 +37,14 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  fetch('projects.md')
+    .then(response => response.text())
+    .then(text => {
+      const renderer = new marked.Renderer();
+      const markdownContainer = document.getElementById('markdown-content');
+      markdownContainer.innerHTML = marked(text, { renderer: renderer });
+    });
+});
+
