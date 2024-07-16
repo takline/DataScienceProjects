@@ -81,7 +81,7 @@ __University of Wisconsin__, _B.S. Economics and Political Science_
 
 * <i class="fa fa-envelope"></i> <a href="mailto:tylerkline@gmail.com">tylerkline@gmail.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/takline">takline</a><br />
-*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/tyler_kline">jonobelotti_IO</a><br />
+*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/tyler_kline">tyler_kline</a><br />
 
 <!-- ### Footer
 
