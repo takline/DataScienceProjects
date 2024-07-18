@@ -13,18 +13,19 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
 ---
 
 
+
 <br>
 
 ## Active Open Source Projects
 
 
-<div style="border: 1px solid lightgray; display: grid; grid-template-columns: 1fr 3fr;  align-items: center; margin-bottom: 20px; max-width: 100%; padding: 20px 10px;">
+<div style="border: 1px solid lightgray; display: grid; grid-template-columns: 1fr 3fr;  align-items: center; margin-bottom: 20px; max-width: 100%; padding: 20px 10px; font-size: 75%;">
     <a href="https://github.com/takline/ResumeGPT" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 10px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/ResumeGPT-light.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/ResumeGPT.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/ResumeGPT.png" alt="ResumeGPT" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/ResumeGPT-light.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/ResumeGPT.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/ResumeGPT.png" alt="ResumeGPT" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>ResumeGPT</strong><br/>
@@ -38,9 +39,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/ResumeGPT" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/autogpt.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/autogpt.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/autogpt.png" alt="ResumeGPT" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/autogpt.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/autogpt.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/autogpt.png" alt="ResumeGPT" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>AutoGPT</strong><br/>
@@ -62,9 +63,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/Notion-OpenAI-Embeddings" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/notionopenai-dark.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/notionopenai.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/notionopenai.png" alt="OpenAI Embeddings in Notion" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/notionopenai-dark.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/notionopenai.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/notionopenai.png" alt="OpenAI Embeddings in Notion" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>OpenAI Embeddings in Notion</strong><br/>
@@ -78,9 +79,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/Web-Scraping-with-AI" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/aiwebscraping.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/aiwebscraping.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/aiwebscraping.png" alt="Web Scraping with AI" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/aiwebscraping.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/aiwebscraping.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/aiwebscraping.png" alt="Web Scraping with AI" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Web Scraping with AI</strong><br/>
@@ -95,9 +96,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/NotionAutomations" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/pythonnotiongemini.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/pythonnotiongemini.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/pythonnotiongemini.png" alt="Google Gemini Vision - Notion Automation" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/pythonnotiongemini.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/pythonnotiongemini.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/pythonnotiongemini.png" alt="Google Gemini Vision - Notion Automation" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Notion Automations</strong><br/>
@@ -111,9 +112,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/luigi-ml-pipeline" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/luigi.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/luigi.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/luigi.png" alt="Luigi ML Pipeline" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/luigi.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/luigi.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/luigi.png" alt="Luigi ML Pipeline" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Luigi ML Pipeline</strong><br/>
@@ -127,9 +128,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/Lambda_Gemini_Video_Summary" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/lambdagemini.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/lambdagemini.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/lambdagemini.png" alt="Lambda Video Summary" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/lambdagemini.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/lambdagemini.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/lambdagemini.png" alt="Lambda Video Summary" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Lambda Video Summary</strong><br/>
@@ -140,12 +141,12 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
 </div>
 
 <div style="border: 1px solid lightgray; display: grid; grid-template-columns: 1fr 3fr; align-items: center; margin-bottom: 20px; max-width: 100%; padding: 20px 10px;">
-    <a href="https://github.com/takline/Home/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion" style="text-decoration: none; color: inherit; display: contents;">
+    <a href="https://github.com/takline/TK-Projects/tree/main/AI/OpenAI%20-%20Embeddings%20with%20Notion" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/dataviz.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/dataviz.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/dataviz.png" alt="Data Visualization Project using Power BI" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/dataviz.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/dataviz.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/dataviz.png" alt="Data Visualization Project using Power BI" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Data Visualization Project using Power BI</strong><br/>
@@ -156,12 +157,12 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
 </div>
 
 <div style="border: 1px solid lightgray; display: grid; grid-template-columns: 1fr 3fr; align-items: center; margin-bottom: 20px; max-width: 100%; padding: 20px 10px;">
-    <a href="https://github.com/takline/Home/tree/main/Analytics%2C%20Reporting%20%26%20Visualization/Flight_DataViz" style="text-decoration: none; color: inherit; display: contents;">
+    <a href="https://github.com/takline/TK-Projects/tree/main/Analytics%2C%20Reporting%20%26%20Visualization/Flight_DataViz" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/flights.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/flights.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/flights.png" alt="Flight Data Visualization Project" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/flights.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/flights.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/flights.png" alt="Flight Data Visualization Project" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Flight Data Visualization Project</strong><br/>
@@ -177,9 +178,9 @@ Day-job, side-projects, and open source code. Click-through to check out the wor
     <a href="https://github.com/takline/13F-Web-Scraper" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/13Fs.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/13Fs.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/13Fs.png" alt="Web Scraping SEC 13Fs" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/13Fs.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/13Fs.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/13Fs.png" alt="Web Scraping SEC 13Fs" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>13F Web Scraper</strong><br/>
@@ -190,12 +191,12 @@ The 13F Web Scraper is a Python-based tool designed to scrape and process 13F fi
 </div>
 
 <div style="border: 1px solid lightgray; display: grid; grid-template-columns: 1fr 3fr; align-items: center; margin-bottom: 20px; max-width: 100%; padding: 20px 10px;">
-    <a href="https://github.com/takline/Home/tree/main/Blender%20%26%203D%20Python%20Modeling" style="text-decoration: none; color: inherit; display: contents;">
+    <a href="https://github.com/takline/TK-Projects/tree/main/Blender%20%26%203D%20Python%20Modeling" style="text-decoration: none; color: inherit; display: contents;">
         <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 20px; align-items: center; max-width: 100%;">
             <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/images/portfolio/blender.png" style="width: 100%; height: auto;"/>
-                <source media="(prefers-color-scheme: light)" srcset="./assets/images/portfolio/blender.png" style="width: 100%; height: auto;"/>
-                <img src="./assets/images/portfolio/blender.png" alt="Blender & 3D Python Modeling" style="width: 100%; height: auto;">
+                <source media="(prefers-color-scheme: dark)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/blender.png" style="width: 100%; height: auto;"/>
+                <source media="(prefers-color-scheme: light)" srcset="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/blender.png" style="width: 100%; height: auto;"/>
+                <img src="https://github.com/takline/TK-Projects/tree/main/assetsportfolio/blender.png" alt="Blender & 3D Python Modeling" style="width: 100%; height: auto;">
             </picture>
             <div style="width: 500%;">
                 <strong>Blender & 3D Python Modeling</strong><br/>
