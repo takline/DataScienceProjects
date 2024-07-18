@@ -4,20 +4,25 @@ title: Resumé
 tags: resume
 permalink: /resume/
 ---
-# Tyler Kline
+<br>
 
-tylerkline@gmail.com | 952-594-5052 | [linkedin.com/tylerkline](https://linkedin.com/tylerkline) | [github.com/takline](https://github.com/takline) | New York, NY
+# Tyler Kline  
 
-## Objective
+[_Download PDF_](https://drive.usercontent.google.com/u/0/uc?id=13GpOZFUO86_BMHmfxO6VIckIVc_BX0uX&export=download)
 
-A Senior Analytics and Product Management Leader with over 10 years of experience in finance and consulting. Demonstrated success in developing cutting-edge trading models, leading strategic QA projects, and enhancing reporting efficiency, resulting in improved risk assessment capabilities and project agility. Skilled in Python, SQL, cloud technologies, and BI tools like Tableau and Power BI. Committed to driving transformative outcomes and leveraging advanced analytical skills to solve complex business challenges in a dynamic, entrepreneurial environment.
 
+
+tylerkline@gmail.com | 952-594-5052 | [linkedin.com/tylerkline](https://linkedin.com/tylerkline) | [github.com/takline](https://github.com/takline) | New York, NY  
+
+## Objective  
+
+Analytics leader with over 10 years of experience in AI, analytics, and product. Demonstrated success in leading AI product development projects, AI model training, evaluation, iteration, and cross-functional collaboration. Committed to driving innovative AI-driven user experiences and model improvements in the design workflow industry.
 
 ## Experience
 
 ### June
-`2024-`  
-__Founder__, New York, NY
+`2024-Present`  
+__Founder__, New York, NY  
 ▪ Founded and launched June, a technology & AI consulting firm, driving strategic innovations in AI and data solutions that significantly impact industry standards.  
 ▪ Engineered and delivered a transformative conversational interface for Notion’s database at a premier marketing firm, leveraging OpenAI embeddings to enhance user interaction, boosting data retrieval efficiency by 70%.  
 ▪ Developed and optimized a Luigi-based data pipeline integrating Scikit-learn and Pandas, which increased data processing efficiency by 40% and improved overall system performance for a leading retail client.  
@@ -25,7 +30,7 @@ __Founder__, New York, NY
 
 ### Barclays
 `2021-23`  
-__Vice President, Quantitative Analytics (QA) Strategy__ , New York, NY
+__Vice President, Quantitative Analytics Strategy__, New York, NY  
 ▪ Transformed Securitized Product Quant Development: Spearheaded process optimization by integrating Agile and DevOps principles, leading to a 100% increase in feature release speed and elevating on-time delivery to 95%.  
 ▪ Architected Quantitative Analytics Trading Tools Strategy: Crafted a visionary long-term strategy through meticulous market and competitor analysis, which directly influenced the securement of pivotal funding by presenting compelling business cases aligned with north star objectives.  
 ▪ Optimized Project Management across Multiple Asset Classes: Launched Jira for streamlined management of QA processes in Macro, Securitized Products, and Credit sectors, enhancing cross-functional team collaboration and achieving timely project completions.  
@@ -33,7 +38,7 @@ __Vice President, Quantitative Analytics (QA) Strategy__ , New York, NY
 
 ### Accenture
 `2019-21`  
-__Management Consultant__, _New York, NY_
+__Management Consultant__, _New York, NY_  
 ▪ Orchestrated a comprehensive 3-year product strategy for a wealth management billing platform, leveraging client interviews and competitive analysis to secure funding for an innovative next-gen platform—enhancing performance by 50% and reducing onboarding times by 30%.  
 ▪ Directed the Consumer Bank segment of the Risk and Control Self-Assessment program at a Top 5 US Bank, implementing strategic controls that bolstered risk coverage by 10% and decreased manual efforts by 20% through meticulous data analysis and process optimization.  
 ▪ Engineered pivotal strategic planning sessions with leadership teams across major US banks, delivering critical insights and promoting robust collaboration that ensured project alignment and bolstered client relationships and outcomes.  
@@ -41,20 +46,20 @@ __Management Consultant__, _New York, NY_
 
 ### Capital One
 `2012-19`  
-__Pricing & Valuations Lead__, _New York, NY_ 
+__Pricing & Valuations__, _New York, NY_   
 ▪ Modernized legacy Excel-based pricing tool by conducting user research, partnering with engineering to develop Python-based valuation framework using AWS, H2O, and Spark, reducing processing time by 50% and improving accuracy by 25%.  
 ▪ Empowered sales teams by designing an interactive demo for an oil/gas analytics platform, enhancing user engagement through comprehensive collateral and tailored training sessions, resulting in a 50% surge in adoption among sell-side clients.  
 ▪ Validated product-market fit for Capital One's middle market web-based prospecting tool by conducting user interviews, defining MVP, and collaborating with UX/engineering to launch user-centric solution, onboarding 20 pilot customers within 30 days post-launch.  
 
-__Principal Data Scientist__, _New York, NY_ 
+__Principal Data Scientist__, _New York, NY_  
 ▪ Led the development of AWS-hosted, Python-based pricing repositories, focusing on compute optimization and ETL.  
 ▪ Led the creation of a Python & ML entity resolution framework, reducing data duplication by 20%, ensuring higher data integrity and operational efficiency across internal platforms.  
 ▪ Improved sell-side equity research in the energy sector by developing ML models to forecast oil and gas production, enhancing prediction accuracy by 10% through rigorous data analysis and model training.  
 
-__Senior Data Analyst__, _New York, NY_ 
+__Senior Data Analyst__, _New York, NY_  
 ▪ Reduced accidental late payments by 10% per billing cycle at Capital One by leading a data analytics project to analyze customer payment behaviors and implementing strategic changes to payment reminders, enhancing cash flow and customer satisfaction.  
 
-__Data Analyst__, _New York, NY_ 
+__Data Analyst__, _New York, NY_  
 ▪ Achieved an accelerated promotion within the first year at Capital One by demonstrating exceptional problem-solving skills and effective communication across teams, contributing to high-impact projects as a rising star in the Analyst Development Program.  
 
 
@@ -67,9 +72,15 @@ __University of Wisconsin__, _B.S. Economics and Political Science_
 
 ## Technical
 
-* **Python**
-* **Ruby**
-* **Java**
+* Python
+* AI/ML
+* SQL
+* Snowflake
+* Cloud (AWS, Azure, GCP)
+* Data visualization
+* BI/Reporting (Power BI, Tableau, Looker)
+* Data pipelines
+* ETL
 * Git
 * Web Applications & APIs
 * Data Engineering
