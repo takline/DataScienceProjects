@@ -142,7 +142,7 @@ h2+p {
 }
 
 h3 {
-	color: #F07415;
+	font-weight: 500;
 	font-size: 1em;
 	line-height: 2em;
 	color: #444;
@@ -181,6 +181,36 @@ em {
 
 strong {
 	font-weight: bold;
+}
+
+.resumeTitle {
+	color: #111;
+	font-style: italic;
+
+}
+
+.resumeCompany {
+	color: #111;
+	font-weight: bold;
+
+}
+
+.resumeDate {
+	color: #aaa;
+	font-style: italic;
+
+}
+
+.resumeLocation {
+	color: #aaa;
+	font-style: italic;
+
+}
+
+#resume p code {
+	position: absolute;
+    left: -22%;
+    top: 6%;
 }
 
 #ghbutton {
